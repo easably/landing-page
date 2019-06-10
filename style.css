@@ -49,6 +49,7 @@ li {
 
 .hero {
 	background: no-repeat center/cover url('img/background2.svg');
+	background-size: 100%;
 	text-align: center;
 }
 
@@ -87,7 +88,7 @@ li {
 }
 
 .menu-main li {
-	min-width: 70px;
+	min-width: 80px;
 }
 
 .menu-main li:not(:last-child) {
@@ -96,7 +97,6 @@ li {
 
 .menu-main li:hover {
 	text-decoration: underline;
-
 }
 
 .menu-main a {
@@ -174,26 +174,30 @@ li {
 	width: 50%;
 }
 
+.openSoftware {
+	color: lightblue; text-decoration: underline;
+	transition: .3s;
+}
+
+.openSoftware:hover {
+	text-decoration: none;
+	color: #4d8bdd;
+}
+
 .app-download .img-phone {
 	display: flex;
-		justify-content: center;
-		margin: 3% 0 17%;
-
+	justify-content: center;
+	margin: 3% 0 17%;
 }
-/*
-.img-phone img {
-	width: 100%;
-}
-*/
 
 .button-install {
 	display: inline-block;
 	color: #f26d6d;
     background-color: #fff;
     border-radius: 50px;
-    border: 2px solid #f26d6d;
-    padding: 1.5% 3%;
-    width: 10%;
+    border: 3px solid #f26d6d;
+    padding: 2% 5%;
+    width: 13%;
 }
 
 .button-install:first-of-type {
@@ -273,7 +277,7 @@ h2 > sup {
 
 }
 
-.sources-paragraph h3, .sources-paragraph p {
+.sources-paragraph h3 {
 	color: #4d8bdd;
 }
 
