@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1rem;
+}
+
+h1, p, a, li {
+	font-family: 'Muli', sans-serif;
+}
+
+h2, h3 {
+	font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+	font-size: 2.3rem;
+	margin-bottom: 1%;
+	font-weight: 500;
+}
+
+h3 {
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 1.7rem;
+}
+
+p {
+	font-size: 1.3rem;
+	font-weight: normal;
+	margin: 2% 0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.7px;
+	color: white;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+.hero {
+	background: no-repeat center/cover url('img/background2.svg');
+	text-align: center;
+}
+
+.header-separator .svg-white-bg {
+	fill: white;
+}
+
+.navbar {
+	position: relative;
+}
+
+.sticky-bar {
+	/*position: fixed;*/
+	display: flex;
+	width:  100%;
+}
+
+.logo, .menu-block {
+	width: 50%;
+}
+
+.logo img {
+	width: 140px;
+	position: absolute;
+	left: 2%;
+	top: 14px;
+}
+
+.menu-block .menu-main {
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	padding: 4% 0;	
+}
+
+.menu-main li:not(:last-child) {
+	padding-right: 5%;
+}
+
+.menu-main li:hover {
+	text-decoration: underline;
+
+}
+
+.menu-main a {
+	font-weight: normal;
+}
+
+.wrapper-hero {
+	padding: 8% 0 8% 0;
+}
+
+.hero-title {
+	margin: 0 15% 0.5%;
+	font-size: 3.3rem;
+	font-weight: 600;
+	color: #fff;
+}
+
+.subtitle {
+	color: #fff; 
+}
+
+.button-started {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 2%; 
+}
+
+.button-started .get-started-button {
+	display: block;	
+	color: #fff;
+    background-color: #f26d6d;
+    border-radius: 50px;
+    padding: 20px 60px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: auto;
+
+}
+
+.button-started .get-started-button:hover {
+	background-color: #ffb43f;
+	transition: all .3s linear;	
+}
+
+.content:not(:last-of-type) {
+	margin: 5% 0;
+	padding: 5% 0;
+	
+}
+
+.content-first {
+	background: url('img/backgrounds/background2.1.png') left top/100% no-repeat ;
+}
+
+.how-it-works {
+	display: flex;
+}
+
+.img-phone, .content-description {
+	width: 50%;
+}
+
+.img-phone {
+	display: flex;
+	justify-content: center;
+	margin: 3% 0 17%;
+
+}
+/*
+.img-phone img {
+	width: 100%;
+}
+*/
+
+.button-install {
+	display: inline-block;
+	color: #f26d6d;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid #f26d6d;
+    padding: 1.5% 3%;
+    width: 10%;
+}
+
+.button-install:hover {
+	color: #fff;
+    background-color: #f26d6d;
+    border: 2px solid #f26d6d;
+    transition: all .3s linear;
+}
+
+.content-description h2 {
+	margin-top: 20%;
+}
+
+h2 > span {
+	font-weight: 800;
+}
+
+h2 > sup {
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.button-group {
+	margin-top: 4%;
+}
+
+.content-second h2 {
+	text-align: center;
+	color:  #4d8bdd;
+}
+
+
+.content-third {
+	background: url('img/LandingEasylang4.3.3.png') right bottom/ cover no-repeat;
+	display: flex;
+	padding: 8% 0 8%;
+}
+
+.sources-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 10% 5% 0;
+	width: 50%;
+	
+}
+
+.sources-block{
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 width: 50%; 
+	}
+
+.sources-paragraph{
+	border-radius: 25px;
+	background:  white;
+	border: 4px solid #bff1ff;
+	margin:  1%;
+	padding: 2%;
+	width: 30%;
+
+}
+
+.sources-paragraph h3, .sources-paragraph p {
+	color: #4d8bdd;
+}
+
+.sources-paragraph p {
+	color: #84bbff;
+}
+
+.call-to-action {
+	padding: 1% 0 3%;
+	background: #26deff;
+}
