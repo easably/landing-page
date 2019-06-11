@@ -16,8 +16,9 @@ h2, h3 {
 }
 
 h2 {
-	font-size: 2.8rem;
 	margin-bottom: 1%;
+
+	font-size: 2.8rem;
 	font-weight: 500;
 }
 
@@ -28,9 +29,10 @@ h3 {
 }
 
 p {
+	margin: 2% 0;
+
 	font-size: 1.4rem;
 	font-weight: normal;
-	margin: 2% 0;
 	line-height: 1.5;
 	color: rgba(0,0,0,.72);
 }
@@ -58,6 +60,15 @@ li {
 
 .slide img {
 	width: 100%;
+}
+
+.image-carousel-caption {
+	padding: 2% 0;
+
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Comfortaa', cursive;
+	
 }
 
 .slick-dots li button:before {
@@ -89,15 +100,18 @@ li {
 }
 
 .logo img {
-	width: 140px;
+	
 	position: absolute;
 	left: 2%;
 	top: 14px;
+
+	width: 140px;
 }
 
 .menu-block .menu-main {
 	position: relative;
 	right: 5%;
+
 	display: flex;
 	justify-content: flex-end;
 	padding: 4% 0;
@@ -143,15 +157,16 @@ li {
 
 .button-started .get-started-button {
 	display: block;	
-	color: #fff;
-    background-color: #f26d6d;
-    border-radius: 50px;
     padding: 20px 60px;
-    border: none;
+    width: auto;
+    
     font-size: 1rem;
     text-transform: uppercase;
-    width: auto;
-
+    color: #fff;
+    
+    background-color: #f26d6d;
+    border: none;
+    border-radius: 50px;
 }
 
 .button-started .get-started-button:hover {
@@ -183,11 +198,9 @@ li {
 	background: url('../img/backgrounds/background2.1.png') left top/100% no-repeat;
 }
 
-
 .app-download{
 	display: flex;
 	flex-wrap: wrap;
-	
 }
 
 .img-phone, .content-description {
@@ -207,18 +220,20 @@ li {
 .app-download .img-phone {
 	display: flex;
 	justify-content: center;
-	margin: 3% 0 17%;
 	flex-wrap: wrap;
+	margin: 3% 0 17%;
 }
 
 .button-install {
 	display: inline-block;
-	color: #f26d6d;
+	padding: 2% 5%;
+    width: 13%;
+
+    color: #f26d6d;
     background-color: #fff;
     border-radius: 50px;
     border: 3px solid #f26d6d;
-    padding: 2% 5%;
-    width: 13%;
+   
 }
 
 .button-install:first-of-type {
@@ -265,18 +280,20 @@ h2 > sup {
 }
 
 .content-sources {
-	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/85% no-repeat;
 	display: flex;
 	
 	margin:  0 auto;
 	margin-bottom: -1px;
 	margin-right: -1px;
+
+	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/85% no-repeat;
 }
 
 .sources-title {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+
 	padding: 20px 50px 20px 50px;
 	width: 50%;
 	
@@ -291,13 +308,14 @@ h2 > sup {
 	}
 
 .sources-paragraph{
-	border-radius: 25px;
-	background:  white;
-	border: 4px solid #bff1ff;
 	margin:  1%;
 	padding: 2%;
 	width: 30%;
 
+	border-radius: 25px;
+	background:  white;
+	border: 4px solid #bff1ff;
+	
 }
 
 .sources-paragraph h3 {
@@ -311,5 +329,5 @@ h2 > sup {
 
 .call-to-action {
 	padding: 1% 0 3%;
-background: linear-gradient(to right, rgba(92,210,242,1) 6%, rgba(92,210,242,1) 20%, rgba(23,225,254,1) 62%, rgba(15,227,255,1) 67%, rgba(15,227,255,1) 81%);
+	background: linear-gradient(to right, rgba(92,210,242,1) 6%, rgba(92,210,242,1) 20%, rgba(23,225,254,1) 62%, rgba(15,227,255,1) 67%, rgba(15,227,255,1) 81%);
 }
