@@ -60,6 +60,11 @@ li {
 	width: 100%;
 }
 
+.slick-dots li button:before {
+	color: #00b9ed !important;
+	font-size: 20px !important;
+}
+
 .hero {
 	background: no-repeat center/cover url('../img/illustration1.svg');
 	text-align: center;
@@ -224,13 +229,13 @@ li {
 .button-install:hover {
 	color: #fff;
     background-color: #f26d6d;
-    border: 2px solid #f26d6d;
+    border: 3px solid #f26d6d;
     transition: all .3s linear;
 }
 
 .button-install:first-of-type:hover{
 	background-color: rgb(183, 82, 82);
-	border: 2px solid rgba(183, 82, 82);	
+	border: 3px solid rgba(183, 82, 82);	
 }
 
 .content-description h2 {
