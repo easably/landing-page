@@ -61,7 +61,7 @@ li {
 }
 
 .hero {
-	background: no-repeat center/cover url('../img/background2.svg');
+	background: no-repeat center/cover url('../img/illustration1.svg');
 	text-align: center;
 }
 
@@ -116,7 +116,7 @@ li {
 }
 
 .wrapper-hero {
-	padding: 7% 0 7% 0;
+	padding: 8% 0 20%;
 }
 
 .hero-title {
@@ -156,7 +156,7 @@ li {
 
 .content {
 	margin: 5% 0;
-	padding: 8% 5%;
+	padding: 5% 5%;
 	
 }
 
@@ -252,6 +252,7 @@ h2 > sup {
 
 .content-howItWorks h2 {
 	text-align: center;
+	margin-bottom: 2%;
 }
 
 .extension img{
@@ -259,7 +260,7 @@ h2 > sup {
 }
 
 .content-sources {
-	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/ cover no-repeat;
+	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/85% no-repeat;
 	display: flex;
 	
 	margin:  0 auto;
