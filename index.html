@@ -5,16 +5,22 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-	<!--<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="/slick/slick.min.js"></script>-
-    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>-->
-	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>	
+	<script type="text/javascript" src="js/script.js"> </script>
 	<title>EasyLang.app</title>
 </head>
 <body>
 	
-
 	<header class="hero">
 		<nav class="navbar">
 			<div class="sticky-bar">
@@ -63,7 +69,7 @@
 				<img src="img/phone.svg" alt="EasyLang app">
 			</div>
 			<div class="content-description">
-				<h2>It is <span>EasyLang</span> app <sup>BETA</sup></h2>
+				<h2>It is <span>EasyLang.app</span><sup>BETA</sup></h2>
 				<p>EasyLang is the <a class="openSoftware" target="_blank" href="https://en.wikipedia.org/wiki/Free_and_open-source_software">open-source</a> software.<br/>Use it for FREE</p>
 
 				<div class="button-group">
@@ -81,7 +87,14 @@
 		<div>
 			<h2>How does our app work?</h2>
 			<div class="slider-wrapper">
-				<div class="slider"></div>
+				<div class="slider">
+					<div class="slides">
+					  <div class="slide 1th"> <img src="img/slider/gif/slide1.gif" alt="">  </div>
+					  <div class="slide 2th"> <img src="img/slider/img/2.png" alt=""> </div>
+					  <div class="slide 3th"> <img src="img/slider/img/3.png" alt=""> </div>
+					  <div class="slide 4th"> <img src="img/slider/img/4.png" alt=""> </div>
+					</div>
+				</div>
 			</div>
 			<div class="extension">
 				<div class="extension-img"> <img src="img/Group-Copy-4.1.png" alt="extension for Chrome"></div>
@@ -118,11 +131,20 @@
 		</div>
 	</section>
 
-
-
 	<footer class="call-to-action">
 		<div class="button-started"><a class="get-started-button"  href="#toGetStarted">get started</a></div>
 	</footer>
 	
-</body>
+</body> 
+
+<script>
+	$('.slides').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+	
+</script>
 </html>
