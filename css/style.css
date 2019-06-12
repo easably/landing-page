@@ -27,8 +27,8 @@ h2 {
 
 h3 {
 	text-transform: capitalize;
-	text-align: center;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
+	font-weight: normal;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 
 	font-size: 1.4rem;
 	font-weight: normal;
-	line-height: 1.5;
+	line-height: 1.2;
 	color: rgba(0,0,0,.72);
 }
 
@@ -93,10 +93,28 @@ li {
 }
 
 .sticky-bar {
-	/*position: fixed;*/
 	display: flex;
 	width:  100%;
 }
+
+.fixed-bar {
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	display: flex;
+	width:  100%;
+	background-color: white;
+
+	z-index: 1000;
+	box-shadow: 0 0 4px rgba(2,0,0,.33);
+}
+
+.fixed-bar a{
+	color: #215599;
+	padding-bottom: 2px;
+}
+
 
 .logo, .menu-block {
 	width: 50%;
@@ -122,19 +140,21 @@ li {
 }
 
 .menu-main li {
-	min-width: 80px;
+	min-width: 130px
+	text-align: right;
 }
 
 .menu-main li:not(:last-child) {
 	padding-right: 5%;
 }
 
-.menu-main li:hover {
-	text-decoration: underline;
-}
-
 .menu-main a {
 	font-weight: normal;
+	padding-bottom: 3px;
+}
+
+.menu-main a:hover {
+	border-bottom: 2px solid #03a9f4;
 }
 
 .wrapper-hero {
@@ -153,14 +173,18 @@ li {
 }
 
 .button-started {
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
 	margin-top: 2%; 
 }
 
 .button-started .get-started-button {
+	padding: 20px 60px;
+}
+
+.button-started .get-started-button, 
+.button-started .get-started-button2  {
 	display: block;	
-    padding: 20px 60px;
     width: auto;
     
     font-size: 1rem;
@@ -278,7 +302,6 @@ h2 > sup {
 	width: 100%;
 }
 
-
 /*puzzle*/
 /*.content-context-memory {
 	background: url('../img/puzzle.svg') no-repeat;
@@ -295,60 +318,72 @@ h2 > sup {
 	padding: 2%;
 }
 
-
+.content:last-of-type {
+	padding-bottom: 5%;
+}
 .sources-wrapper, .sources-block {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	flex-wrap: wrap;
 }
 
-.content-sources {
-	margin-bottom: -1px;
-	margin-right: -1px;
-	margin-top: 12%;
-	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/85% no-repeat;
+.sources-wrapper {
+	display: flex;
+	justify-content: center;
+
 }
 
 .sources-title {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-
-	padding: 20px 50px 20px 50px;	
+	align-items: ;
+	padding: 20px 0 20px 50px;	
+	flex-basis: 50%;
+	margin-top: 5%;
 }
 
-.sources-block {
-	justify-content: flex-start;
-	
-	width: 40%;
-	padding-left: 10%;
+.sources-block, .sources-block .second-part {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 
 	}
+ .sources-block .second-part {
+	flex-direction: column;
+	justify-content: center;
+}
 
 .sources-paragraph{
-	margin:  1%;
-	padding: 2%;
-	width: 30%;
+	margin:  2%;
+	padding: 6%;
 
 	border-radius: 25px;
-	background:  white;
-	border: 4px solid #bff1ff;
-	
+	background:  #45B8FF;	
+	color: white;
 }
 
-.sources-paragraph h3 {
-	color: #4d8bdd;
+.second-part .sources-paragraph {
+	margin: 1%;
 }
-
 .sources-paragraph p {
-	color: #84bbff;
 	font-size: 1rem;
+	color: white;
+}
+
+.button-started .get-started-button2 {
+	padding: 25px 75px;
+	font-size: 1.2rem;
+
 }
 
 .call-to-action {
-	padding: 1% 0 3%;
-	background: url('../illustration6.svg') bottom;
+	padding-bottom: 5%;
+	background: url('../illustration6.svg') bottom/contain no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
 }
