@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -17,8 +19,9 @@ h2, h3 {
 }
 
 h2 {
-	font-size: 2.8rem;
 	margin-bottom: 1%;
+
+	font-size: 2.8rem;
 	font-weight: 500;
 }
 
@@ -29,9 +32,10 @@ h3 {
 }
 
 p {
+	margin: 2% 0;
+
 	font-size: 1.4rem;
 	font-weight: normal;
-	margin: 2% 0;
 	line-height: 1.5;
 	color: rgba(0,0,0,.72);
 }
@@ -61,8 +65,22 @@ li {
 	width: 100%;
 }
 
+.image-carousel-caption {
+	padding: 2% 0;
+
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Comfortaa', cursive;
+	
+}
+
+.slick-dots li button:before {
+	color: #00b9ed !important;
+	font-size: 20px !important;
+}
+
 .hero {
-	background: no-repeat center/cover url('../img/illustration1.svg');
+	background: no-repeat bottom/cover url('../img/bg-3.svg');
 	text-align: center;
 }
 
@@ -85,15 +103,18 @@ li {
 }
 
 .logo img {
-	width: 140px;
+	
 	position: absolute;
 	left: 2%;
 	top: 14px;
+
+	width: 140px;
 }
 
 .menu-block .menu-main {
 	position: relative;
 	right: 5%;
+
 	display: flex;
 	justify-content: flex-end;
 	padding: 4% 0;
@@ -139,15 +160,16 @@ li {
 
 .button-started .get-started-button {
 	display: block;	
-	color: #fff;
-    background-color: #f26d6d;
-    border-radius: 50px;
     padding: 20px 60px;
-    border: none;
+    width: auto;
+    
     font-size: 1rem;
     text-transform: uppercase;
-    width: auto;
-
+    color: #fff;
+    
+    background-color: #f26d6d;
+    border: none;
+    border-radius: 50px;
 }
 
 .button-started .get-started-button:hover {
@@ -156,38 +178,52 @@ li {
 }
 
 .content {
-	margin: 5% 0;
-	padding: 5% 5%;
+	margin: 6% 0;
+	padding: 6%;
 	
 }
 
-.content-enjoyLearning .enjoyIt{
-	margin:  0 auto;
+.content-enjoyLearning .enjoyIt-wrapper{
 	text-align: right;
 }
 
-.enjoyIt-heading {
+.enjoyIt-heading, .context-title {
 	text-align: left;
 	padding: 20px 50px 0 50px;
 }
 
-.imgEnjoy img {
+.imgEnjoy img, .img-context-puzzle img {
 	width: 73%;
 }
 
-.content-ourApp {
-	background: url('../img/backgrounds/background2.1.png') left top/100% no-repeat;
-}
+/*.content-ourApp {
+	background: url('../img/phone-dark.svg') left top/contain no-repeat;
+}*/
 
-
-.app-download{
+.app-download-wrapper{
 	display: flex;
-	flex-wrap: wrap;
-	
+	flex-wrap: nowrap;
 }
 
-.img-phone, .content-description {
-	width: 50%;
+
+.img-phone img{
+	text-align: left;
+	width: 90%;
+}
+
+.content-description {
+	flex-basis: 50%;
+	margin-top: 10%;
+}
+
+
+h2 > span {
+	font-weight: 800;
+}
+
+h2 > sup {
+	font-size: 1rem;
+	font-weight: 800;
 }
 
 .openSoftware {
@@ -200,21 +236,16 @@ li {
 	color: #4d8bdd;
 }
 
-.app-download .img-phone {
-	display: flex;
-	justify-content: center;
-	margin: 3% 0 17%;
-	flex-wrap: wrap;
-}
-
 .button-install {
 	display: inline-block;
-	color: #f26d6d;
+	padding: 2% 5%;
+    width: 13%;
+
+    color: #f26d6d;
     background-color: #fff;
     border-radius: 50px;
-    border: 3px solid #f26d6d;
-    padding: 2% 5%;
-    width: 13%;
+    border: 2px solid #f26d6d;
+   
 }
 
 .button-install:first-of-type {
@@ -234,19 +265,6 @@ li {
 	border: 2px solid rgba(183, 82, 82);	
 }
 
-.content-description h2 {
-	margin-top: 20%;
-}
-
-h2 > span {
-	font-weight: 800;
-}
-
-h2 > sup {
-	font-size: 1rem;
-	font-weight: 800;
-}
-
 .button-group {
 	margin-top: 4%;
 }
@@ -260,40 +278,65 @@ h2 > sup {
 	width: 100%;
 }
 
-.content-sources {
-	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/85% no-repeat;
+
+/*puzzle*/
+/*.content-context-memory {
+	background: url('../img/puzzle.svg') no-repeat;
+	height: 400px;
+
+}
+*/
+
+.context-title {
+	text-align: right;
+}
+
+.img-context-puzzle {
+	padding: 2%;
+}
+
+
+.sources-wrapper, .sources-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
-	
-	margin:  0 auto;
+	flex-wrap: wrap;
+}
+
+.content-sources {
 	margin-bottom: -1px;
 	margin-right: -1px;
+	margin-top: 12%;
+	background: url('../img/backgrounds/LandingEasylang4.3.3.png') right bottom/85% no-repeat;
 }
 
 .sources-title {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: 20px 50px 20px 50px;
-	width: 50%;
-	
+
+	padding: 20px 50px 20px 50px;	
 }
 
-.sources-block{
-	 display: flex;
-	 flex-direction: row;
-	 justify-content: flex-start;
-	 flex-wrap: wrap;
-	 flex-basis: 50%;
+.sources-block {
+	justify-content: flex-start;
+	
+	width: 40%;
+	padding-left: 10%;
+
 	}
 
 .sources-paragraph{
-	border-radius: 25px;
-	background:  white;
-	border: 4px solid #bff1ff;
 	margin:  1%;
 	padding: 2%;
 	width: 30%;
 
+	border-radius: 25px;
+	background:  white;
+	border: 4px solid #bff1ff;
+	
 }
 
 .sources-paragraph h3 {
@@ -307,5 +350,5 @@ h2 > sup {
 
 .call-to-action {
 	padding: 1% 0 3%;
-background: linear-gradient(to right, rgba(92,210,242,1) 6%, rgba(92,210,242,1) 20%, rgba(23,225,254,1) 62%, rgba(15,227,255,1) 67%, rgba(15,227,255,1) 81%);
+	background: linear-gradient(to right, rgba(92,210,242,1) 6%, rgba(92,210,242,1) 20%, rgba(23,225,254,1) 62%, rgba(15,227,255,1) 67%, rgba(15,227,255,1) 81%);
 }

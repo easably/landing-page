@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1387 687" style="enable-background:new 0 0 1387 687;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E6EAFF;}
+	.st1{fill:url(#Oval_5_);}
+	.st2{fill:#245FAB;}
+	.st3{fill:#FFFFFF;}
+	.st4{filter:url(#filter-3);}
+	.st5{fill:#F6FAFF;}
+	.st6{fill:#45B8FF;}
+	.st7{fill:none;stroke:#000000;stroke-width:12;}
+	.st8{fill:#1A1A1A;}
+	.st9{font-family:'Kodchasan-Medium';}
+	.st10{font-size:22px;}
+	.st11{filter:url(#filter-5);}
+	.st12{fill:#50525B;}
+	.st13{font-family:'Arial-BoldMT';}
+	.st14{font-size:16px;}
+	.st15{fill:#D3DBE7;}
+	.st16{font-size:14px;}
+	.st17{fill:#AFF265;}
+	.st18{fill:#FFEB5D;}
+	.st19{fill:#FF9861;}
+	.st20{filter:url(#filter-7);}
+	.st21{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="114.0%" id="filter-7" width="114.0%" x="-7.0%" y="-5.0%">
+	<feMorphology  in="SourceAlpha" operator="erode" radius="2.5" result="shadowSpreadOuter1"></feMorphology>
+	<feOffset  dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0.360784314   0 0 0 0 0.466666667   0 0 0 0 0.615686275  0 0 0 1 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="103.8%" id="filter-5" width="104.5%" x="-2.2%" y="-1.3%">
+	<feMorphology  in="SourceAlpha" operator="erode" radius="1.5" result="shadowSpreadOuter1"></feMorphology>
+	<feOffset  dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0.666535488   0 0 0 0 0.764391284   0 0 0 0 0.823228034  0 0 0 1 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="114.7%" id="filter-3" width="128.8%" x="-14.8%" y="-6.7%">
+	<feMorphology  in="SourceAlpha" operator="dilate" radius="3" result="shadowSpreadOuter1"></feMorphology>
+	<feOffset  dx="-1" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8.5"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0.368526519   0 0 0 0 0.489322469   0 0 0 0 0.582257699  0 0 0 0.348776224 0">
+		</feColorMatrix>
+</filter>
+<title>4</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-3">
+	<g id="_x34_" transform="translate(-38.000000, 0.000000)">
+		<path id="Combined-Shape-Copy-8" class="st0" d="M250.7,476.3l-6.4,2.5c-3.7-9-8.4-16.8-14.1-23.5c-16.1-18.9-58.9-3.3-101.4-29.1
+			s-68.2-38.2-57-38.7c30.2-1.2,86.5,7.2,124.8,29.9c20.3,12.1,36,26.9,47,44.6c-10.6-24-29.7-67.2-65.4-66.7
+			c-48.7,0.7-78.1-43.2-99.5-51s-48.2-1.4-38.5-8.7C55.5,323.9,149,319.3,186.9,359c9.8,10.3,19.4,23.4,28.2,37
+			c-2-4.1-3.8-7.9-5.5-11.2c-23.7-46.7-41-56.1-54-98.7c-13.7-44.8,11.1-31.6,9.8-118.4c-0.2-12.4,29.1,13.1,45.6,88.3
+			c7.5,34.2,0.9,84.4,13.6,134.7c4.6,18.4,22.7,47.8,34.6,83.8c0.3,0.9-1.7,1.6-5.9,2.2c-0.1,0.6-0.4,0.8-1,0.7
+			c-0.3-0.1-0.5-0.2-0.8-0.5c-0.2,0-0.4,0-0.5,0.1C250.9,476.8,250.8,476.6,250.7,476.3z"/>
+		
+			<linearGradient id="Oval_5_" gradientUnits="userSpaceOnUse" x1="123.3602" y1="740.6135" x2="123.3602" y2="739.6892" gradientTransform="matrix(608 0 0 -658 -74521.7734 487527)">
+			<stop  offset="0" style="stop-color:#245FAB"/>
+			<stop  offset="0.9996" style="stop-color:#142E50"/>
+		</linearGradient>
+		<ellipse id="Oval" class="st1" cx="481.2" cy="344" rx="304" ry="329"/>
+		<path id="Combined-Shape" class="st2" d="M375.8,563.3l-6.4,2.5c-3.7-9-8.4-16.8-14.1-23.5c-16.1-18.9-58.9-3.3-101.4-29.1
+			c-42.5-25.8-68.2-38.2-57-38.7c30.2-1.2,86.5,7.2,124.8,29.9c20.3,12.1,36,26.9,47,44.6c-10.6-24-29.7-67.2-65.4-66.7
+			c-48.7,0.7-78.1-43.2-99.5-51s-48.2-1.4-38.5-8.7c15.3-11.6,108.8-16.2,146.6,23.5c15.5,16.3,30.5,39.3,42.3,60.8
+			c-5.9-14.4-11-25.9-15.4-34.7c-23.7-46.7-43.7-58.2-54.4-92.2c-14-44.5,6-41.4,6-125.2c0-40.4,27.6,12.7,44.2,88
+			c7.5,34.2,1.5,82.3,14.1,132.7c4.6,18.4,23.6,50.1,35.5,86.1c0.3,0.9-1.7,1.6-5.9,2.2c-0.1,0.6-0.4,0.8-1,0.7
+			c-0.3-0.1-0.5-0.2-0.8-0.5c-0.2,0-0.4,0-0.5,0.1C376,563.8,375.9,563.6,375.8,563.3z M153.6,489.2c21,0.5,60.5,15.1,83,36.5
+			c22.6,21.3,39.2,36.6,44.4,45.8s-9.8-3.9-28.6-13.6c-18.8-9.7-45.1-9.4-70-33.5C157.6,500.2,147.5,489,153.6,489.2z M156.1,554
+			c31.2,4.3,53.1-4.8,78.4,6.7c25.3,11.5,37.7,31.6,26.4,26.3c-11.3-5.4-34.1-10.6-63-13.3S138.9,551.6,156.1,554z M607.3,569.3
+			c-1.2-10.6,1.5-26.1,14.5-44.7c0.4-3,0.7-5.7,0.9-8.1c1.8-22.3-25.8-53.7-19.3-101.4s10.5-68.3,15.3-62.1
+			c16.2,21.3,31.8,74.4,26.5,117.1c-1.4,11.2-3.4,24.6-5.9,38.1c1.9-1.5,3.9-3.1,6-4.7c13.7-48.2,10.2-96.6,19.3-129.4
+			c20.5-74.3,50.2-120.1,50.2-85.8c0,75.2,2.9,77.5,0,114.7c-3.6,45.1-34.1,50.4-59.9,93.2c11.2-8.5,21.8-16.3,25.5-20.2
+			c38.1-38.9,124.1-32.2,137.3-20.3c8.4,7.6-15.8,0.5-36.2,7.9c-20.4,7.4-52.9,39.8-98.4,47.5c-23.9,4.1-39.1,23.6-49.2,41.5
+			c2.5-0.7,4.7-1.5,6.7-2.2c14.5-5.5,29.9-14.1,45-16.6c39.1-6.3,83.2,1.3,106.9,11.1c8.8,3.6-13.8,6-57.4,13.5
+			c-43.6,7.5-71.7-10-91.7-0.1c-10.6,5.3-11.5,36.6-27.2,36.6C607.3,595.1,604.4,586.5,607.3,569.3z"/>
+		<path id="Combined-Shape_1_" class="st3" d="M325.2,414c-1.1,0-2-0.9-2-2s0.9-2,2-2c1.1,0,2,0.9,2,2S326.3,414,325.2,414z
+			 M308.7,378c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S309.6,378,308.7,378z M302.3,464.4c-0.9,0.7-2.1,0.5-2.8-0.3
+			c-0.7-0.9-0.5-2.1,0.3-2.8c0.9-0.7,2.1-0.5,2.8,0.3C303.3,462.4,303.1,463.7,302.3,464.4z M253.3,445.3c-0.7,0.5-1.6,0.4-2.1-0.3
+			c-0.5-0.7-0.4-1.6,0.3-2.1c0.7-0.5,1.6-0.4,2.1,0.3C254,443.8,253.9,444.8,253.3,445.3z M272.3,441.3c-0.7,0.5-1.6,0.4-2.1-0.3
+			c-0.5-0.7-0.4-1.6,0.3-2.1s1.6-0.4,2.1,0.3C273,439.8,272.9,440.8,272.3,441.3z M683.2,417c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2
+			S684.3,417,683.2,417z M699.7,381c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S700.6,381,699.7,381z M728.4,465.3
+			c-0.7-0.5-0.8-1.5-0.3-2.1c0.5-0.7,1.5-0.8,2.1-0.3s0.8,1.5,0.3,2.1C730,465.7,729.1,465.8,728.4,465.3z"/>
+		<g id="phone" transform="translate(356.226064, 73.000000)">
+			<g id="Group-8">
+				<g id="Rectangle">
+					<g class="st4">
+						<path id="path-2_2_" d="M40,16h170c22.1,0,40,17.9,40,40v409c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V56
+							C0,33.9,17.9,16,40,16z"/>
+					</g>
+					<g>
+						<path id="path-2_1_" class="st5" d="M40,16h170c22.1,0,40,17.9,40,40v409c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V56
+							C0,33.9,17.9,16,40,16z"/>
+					</g>
+				</g>
+				<path id="Rectangle-Copy-3" class="st6" d="M30,16h190c16.6,0,30,13.4,30,30v26H0V46C0,29.4,13.4,16,30,16z"/>
+				<path id="Rectangle-Copy" class="st7" d="M34,10h182c22.1,0,40,17.9,40,40v421c0,22.1-17.9,40-40,40H34c-22.1,0-40-17.9-40-40
+					V50C-6,27.9,11.9,10,34,10z"/>
+				<path id="Rectangle_1_" d="M57,15h136v6c0,5.5-4.5,10-10,10H67c-5.5,0-10-4.5-10-10V15z"/>
+				<path id="Combined-Shape_2_" class="st8" d="M106,18h38c1.1,0,2,0.9,2,2s-0.9,2-2,2h-38c-1.1,0-2-0.9-2-2S104.9,18,106,18z
+					 M152,18c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S150.9,18,152,18z"/>
+				<text transform="matrix(1 0 0 1 63.664 59)" class="st3 st9 st10">My lessons</text>
+			</g>
+			<g id="уроки" transform="translate(17.000000, 70.000000)">
+				<g id="Combined-Shape_3_">
+					<g class="st11">
+						<path id="path-4_2_" d="M27,303h258c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27c-14.9,0-27-12.1-27-27v-30
+							C0,315.1,12.1,303,27,303z M27,207h242c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27c-14.9,0-27-12.1-27-27v-30
+							C0,219.1,12.1,207,27,207z M27,111h226c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27c-14.9,0-27-12.1-27-27v-30
+							C0,123.1,12.1,111,27,111z M27,15h210c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27C12.1,99,0,86.9,0,72V42
+							C0,27.1,12.1,15,27,15z"/>
+					</g>
+					<g>
+						<path id="path-4_1_" class="st3" d="M27,303h258c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27c-14.9,0-27-12.1-27-27v-30
+							C0,315.1,12.1,303,27,303z M27,207h242c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27c-14.9,0-27-12.1-27-27v-30
+							C0,219.1,12.1,207,27,207z M27,111h226c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27c-14.9,0-27-12.1-27-27v-30
+							C0,123.1,12.1,111,27,111z M27,15h210c14.9,0,27,12.1,27,27v30c0,14.9-12.1,27-27,27H27C12.1,99,0,86.9,0,72V42
+							C0,27.1,12.1,15,27,15z"/>
+					</g>
+				</g>
+				<text transform="matrix(1 0 0 1 22 337)" class="st12 st13 st14">4. Help me!</text>
+				<text transform="matrix(1 0 0 1 22 358)" class="st15 st13 st16">2 days ago</text>
+				<g id="Group" transform="translate(268.000000, 319.000000)">
+					<circle id="Oval-Copy" class="st17" cx="11" cy="26" r="11"/>
+					<circle id="Oval_1_" class="st3" cx="11" cy="26" r="7.3"/>
+				</g>
+				<text transform="matrix(1 0 0 1 22 241)" class="st12 st13 st14">3. And EASYLANG</text>
+				<text transform="matrix(1 0 0 1 162.8006 241)" class="st12 st13 st14"> </text>
+				<text transform="matrix(1 0 0 1 162.8006 241)" class="st12 st9 st14">…</text>
+				<text transform="matrix(1 0 0 1 22 262)" class="st15 st13 st16">3 days ago</text>
+				
+					<g id="Group_1_" transform="translate(263.000000, 233.000000) scale(-1, 1) translate(-263.000000, -233.000000) translate(252.000000, 222.000000)">
+					<circle id="Oval-Copy_1_" class="st17" cx="11" cy="26" r="11"/>
+					<path id="Oval-Copy-9" class="st18" d="M11,37c0-4.9,0-16,0-22C4.9,15,0,19.9,0,26S4.9,37,11,37z"/>
+					<circle id="Oval_2_" class="st3" cx="11" cy="26" r="7.3"/>
+				</g>
+				<text transform="matrix(1 0 0 1 22 145)" class="st12 st13 st14">2. And getting better…</text>
+				<text transform="matrix(1 0 0 1 22 166)" class="st15 st13 st16">4 days ago</text>
+				<text transform="matrix(1 0 0 1 21 49)" class="st12 st13 st14">1. I study…</text>
+				<text transform="matrix(1 0 0 1 21 70)" class="st15 st13 st16">5 days ago</text>
+				<g id="Group_2_" transform="translate(241.000000, 127.000000)">
+					<circle id="Oval-Copy_2_" class="st19" cx="11" cy="26" r="11"/>
+					<path id="Oval-Copy-2" class="st18" d="M11,37V15C4.9,15,0,19.9,0,26S4.9,37,11,37z"/>
+					<circle id="Oval_3_" class="st3" cx="11" cy="26" r="7.3"/>
+				</g>
+				<g id="Group-Copy" transform="translate(220.000000, 31.000000)">
+					<circle id="Oval-Copy_3_" class="st19" cx="11" cy="26" r="11"/>
+					<circle id="Oval_4_" class="st3" cx="11" cy="26" r="7.3"/>
+				</g>
+			</g>
+			<g id="добавить-copy" transform="translate(172.773936, 417.000000)">
+				<circle id="Oval-Copy-2_1_" class="st6" cx="25.5" cy="40.5" r="22.6"/>
+				<g id="_x2B_" transform="translate(0.773936, -0.000000)">
+					<g id="Oval-Copy-2_2_">
+						<g class="st20">
+							<circle id="path-6_2_" cx="25" cy="40" r="25"/>
+						</g>
+						<g>
+							<circle id="path-6_1_" class="st6" cx="25" cy="40" r="25"/>
+						</g>
+					</g>
+					<path id="Combined-Shape_4_" class="st21" d="M25,40h-8H25v-8V40z M25,40h8H25v8V40z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
