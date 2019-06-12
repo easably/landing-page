@@ -350,5 +350,5 @@ h2 > sup {
 
 .call-to-action {
 	padding: 1% 0 3%;
-	background: linear-gradient(to right, rgba(92,210,242,1) 6%, rgba(92,210,242,1) 20%, rgba(23,225,254,1) 62%, rgba(15,227,255,1) 67%, rgba(15,227,255,1) 81%);
+	background: url('../illustration6.svg') bottom;
 }
