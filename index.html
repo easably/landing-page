@@ -1,12 +1,15 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
+	<meta name="description" content="Effective tutor for learning languages through worldwide information">
 	<meta name="author" content="">
+	<link rel="shortcut icon" href="img/icon128.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
@@ -30,13 +33,15 @@
 				
 				<div class="menu-block">
 					<ul class="menu-main">
-						<li><a href="#toGetStarted">our app</a></li>
-						<li><a href="#howItWorks">how it works</a></li>
-						<li><a href="#source">sources for learning</a></li>
+						<li><a href="#toGetStarted" class="menu-nav__link">our app</a></li>
+						<li><a href="#howItWorks" class="menu-nav__link">how it works</a></li>
+						<li><a href="#source" class="menu-nav__link">sources for learning</a></li>
 						<!--<li><a href=""></a></li>
 						<li><a href=""></a></li>-->
 					</ul>
+			
 				</div>
+				<a href="#" class="menu-btn"><span></span></a>
 			</div>
 		</nav>
 		<div class="wrapper-hero">
@@ -60,6 +65,18 @@
 			<div class="enjoyIt-heading"><h2>Learn languages with Pleasure</h2>
 			<p>Any sources as <b>Netflix</b> and <b>Youtube</b> can be your lessons.<br/>You only need to find your favourite sphere.</p></div>
 			<div class="imgEnjoy"><img src="img/CozylandingIllustration.svg" alt="Enjoy learning"></div>
+		</div>
+		
+	</section>
+
+	<section class="content content-context-memory">
+		<div class="context-title">
+			<h2 class="context-heading">All you have read or watched<br/>are clues for the memory</h2>
+			<p>Our training based on the materials you’ve learned before.</p>
+
+		</div>
+		<div class="img-context-puzzle">
+			<img src="img/puzzle.svg" alt="">
 		</div>
 		
 	</section>
@@ -90,7 +107,7 @@
 			<h2>How does our app work?</h2>
 			<div class="slider-wrapper">
 				<div class="slider">
-					<div class="slides" data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","effect":"slide","direction":"ltr"}'>
+					<div class="slides" data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","direction":"ltr"}'>
 					  <div class="slide 1th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-1.svg" alt="">  <figcaption class="image-carousel-caption">Play some video</figcaption></figure></div>
 
 					  <div class="slide 2th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-2.svg" alt=""> <figcaption class="image-carousel-caption">Click "A"(Add) button</figcaption></figure></div>
@@ -103,18 +120,6 @@
 				<div class="extension-img"> <img src="img/ExtensionIllustration1.png" alt="extension for Chrome"></div>
 			</div>
 		</div>
-	</section>
-
-	<section class="content content-context-memory">
-		<div class="context-title">
-			<h2 class="context-heading">All you have read or watched<br/>are clues for the memory</h2>
-			<p>Our training based on the materials you’ve learned before.</p>
-
-		</div>
-		<div class="img-context-puzzle">
-			<img src="img/puzzle.svg" alt="">
-		</div>
-		
 	</section>
 
 	<footer class="call-to-action">
@@ -162,10 +167,15 @@
 		$('.slides').slick({
 	  dots: true,
 	  infinite: true,
-	  speed: 500,
-	  fade: false
+	  speed: 900,
+	  fade: true
 	});
 
+		$('.menu-btn').on('click', function(e) {
+	e.preventDefault;
+	$(this).toggleClass('menu-btn_active');
+	$('.menu-main').toggleClass('menu-main_active');
+});
 	</script>
 
 </html>

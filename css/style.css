@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kodchasan:600&display=swap');
 
 * {
 	margin: 0;
@@ -95,7 +96,7 @@ li {
 .sticky-bar {
 	display: flex;
 	width:  100%;
-	
+	justify-content: space-between;
 }
 
 .fixed-bar {
@@ -131,15 +132,17 @@ li {
 
 /*logo*/
 .logo, .menu-block {
-	width: 50%;
+	width: 40%;
+	max-height: 80px;
 }
 
 .logo-light {
 	position: absolute;
 	left: 3%;
-	top: 30%;
+	top: 25%;
+	bottom: 25%; 
 	font-size: 1.8rem;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Kodchasan', sans-serif;
 	font-weight: bold;
 	color: white;
 }
@@ -159,28 +162,31 @@ li {
 	right: 5%;
 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-around;
 	padding: 4% 0;
 	align-items: center;
 	text-transform: capitalize;
 }
 
-.menu-main li {
-	min-width: 150px;	
+.menu-main li {	
 	text-align: right;
 }
 
-.menu-main li:nth-of-type(2) {
+/*.menu-main li:nth-of-type(2) {
 	padding-right: 5%;
-}
+}*/
 
-.menu-main a {
+.menu-main .menu-nav__link {
 	font-weight: normal;
 	padding-bottom: 5px;
 }
 
-.menu-main a:hover {
+.menu-main .menu-nav__link:hover {
 	border-bottom: 3px solid #03a9f4;
+}
+
+.menu-btn {
+	display: none;
 }
 
 .hero-title {
@@ -218,7 +224,8 @@ li {
     border-radius: 50px;
 }
 
-.button-started .get-started-button:hover {
+.button-started .get-started-button:hover,
+.button-started .get-started-button2:hover {
 	background-color: #ffb43f;
 	transition: all .3s linear;	
 }
@@ -243,7 +250,7 @@ li {
 }
 
 .imgEnjoy img, .img-context-puzzle img {
-	width: 73%;
+	width: 68%;
 }
 
 /*.content-ourApp {
@@ -347,7 +354,7 @@ h2 > sup {
 .content:last-of-type {
 	padding-bottom: 5%;
 }
-.sources-wrapper, .sources-block {
+.sources-wrapper, .sources-block, .sources-block .second-part{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -371,14 +378,6 @@ h2 > sup {
 	margin-top: 5%;
 }
 
-.sources-block, .sources-block .second-part {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-
-	}
  .sources-block .second-part {
 	flex-direction: column;
 	justify-content: center;
@@ -404,12 +403,11 @@ h2 > sup {
 .button-started .get-started-button2 {
 	padding: 25px 75px;
 	font-size: 1.2rem;
-
 }
 
 .call-to-action {
-	padding-bottom: 5%;
-	background: url('../illustration6.svg') bottom/contain no-repeat;
-	-webkit-background-size: 100%;
+	padding-bottom: 3%;
+	background: url('../illustration6(3).svg') bottom no-repeat;
 	background-size: 100%;
+
 }
