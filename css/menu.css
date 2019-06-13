@@ -90,6 +90,15 @@
 		background-color: #222B34;
 	}
 
+	.menu-main .menu-nav__link {
+		color: white;
+	}
+
+	.menu-main .menu-nav__link:hover {
+	border-bottom: 0;
+	color: white;
+}
+
 
 /*menu links*/
 	.menu-nav__link {

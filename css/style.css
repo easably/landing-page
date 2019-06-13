@@ -24,6 +24,8 @@ h2 {
 
 	font-size: 2.8rem;
 	font-weight: 500;
+	word-wrap: normal;
+	word-break: keep-all;
 }
 
 h3 {
@@ -132,15 +134,14 @@ li {
 
 /*logo*/
 .logo, .menu-block {
-	width: 40%;
+	width: 30%;
 	max-height: 80px;
 }
 
 .logo-light {
 	position: absolute;
 	left: 3%;
-	top: 25%;
-	bottom: 25%; 
+	top: 15%; 
 	font-size: 1.8rem;
 	font-family: 'Kodchasan', sans-serif;
 	font-weight: bold;
@@ -207,7 +208,7 @@ li {
 }
 
 .button-started .get-started-button {
-	padding: 20px 60px;
+	padding: 20px 40px;
 }
 
 .button-started .get-started-button, 
@@ -293,16 +294,27 @@ h2 > sup {
 	color: #4d8bdd;
 }
 
-.button-install {
-	display: inline-block;
-	padding: 2% 5%;
-    width: 13%;
+.button-group {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 
+}
+
+.button-install {
+	padding: 2% 5%;
+	
+ 
     color: #f26d6d;
     background-color: #fff;
     border-radius: 50px;
     border: 2px solid #f26d6d;
    
+}
+.button-install:not(:first-of-type) {
+margin-left: 2%;
 }
 
 .button-install:first-of-type {
@@ -363,7 +375,6 @@ h2 > sup {
 }
 
 .sources-wrapper {
-	display: flex;
 	justify-content: center;
 
 }
@@ -372,9 +383,9 @@ h2 > sup {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: ;
-	padding: 20px 0 20px 50px;	
 	flex-basis: 50%;
+	padding: 20px 0 20px 50px;	
+	
 	margin-top: 5%;
 }
 

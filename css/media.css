@@ -1,0 +1,109 @@
+@media (min-width: 1025px) {
+	h2 {
+		font-size: 2.6rem;
+	}
+}
+
+@media (max-width: 1024px) {
+		h1.hero-title {
+				font-size: 2.8rem;
+	}
+		h2 {
+			font-size: 2rem;
+	}
+
+		p {
+			font-size: 1.2rem;
+	}
+		.button-started {
+		width: 220px;
+	}
+		.button-started .get-started-button2 {
+		padding: 17px 0 !important;
+		font-size: 1rem;
+	}
+	
+		.sources-wrapper, .sources-block{
+		flex-wrap: wrap;
+	}
+	
+	.img-phone img {
+		width: 70%;
+	}
+}
+
+
+@media(max-width: 768px) {
+	h1.hero-title {
+				font-size: 2.3rem;
+			}
+
+	h2 {
+			font-size: 1.8rem;
+		}
+	
+	p {
+			font-size: 1rem;
+		}
+
+	.app-download-wrapper{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.img-phone img {
+		width: 70%;
+		display: block;
+		margin-left: 10%;
+	}
+
+	.content-description {	
+		margin: 0 auto;
+		margin-top: 3%;
+		text-align: center;
+
+	}
+	.sources-title {
+		flex-basis: 100%;
+		text-align: center;
+		padding-left: 0;
+	}
+	.sources-block {
+		justify-content: center;
+	}
+
+}
+
+
+@media(max-width: 500px) {
+	h1.hero-title {
+				font-size: 1.2rem;
+			}
+
+	h2 {
+			font-size: 1.1rem;
+		}
+	
+	p, a {
+			font-size: .7rem;
+		}
+	.content {
+		margin: 15% 0;
+	}
+	.imgEnjoy img, .img-context-puzzle img {
+		width: 100%;
+	}
+
+	.button-started {
+		width: 150px;
+	}
+		.button-started .get-started-button2, .button-started .get-started-button {
+		padding: 10px 0 !important;
+		font-size: 0.7rem;
+	}
+	.slider {
+		margin:  0 5%;
+	}
+	.image-carousel-caption {
+		font-size: .7rem;
+	}
+}
