@@ -33,9 +33,9 @@
 				
 				<div class="menu-block">
 					<ul class="menu-main">
-						<li><a href="#toGetStarted" class="menu-nav__link">our app</a></li>
-						<li><a href="#howItWorks" class="menu-nav__link">how it works</a></li>
-						<li><a href="#source" class="menu-nav__link">sources for learning</a></li>
+						<li><a href="#toGetStarted" class="menu-nav__link" id="ourApp">our app</a></li>
+						<li><a href="#howItWorks" class="menu-nav__link" id="howItWorks">how it works</a></li>
+						<li><a href="#source" class="menu-nav__link" id="learningSourses">sources for learning</a></li>
 						<!--<li><a href=""></a></li>
 						<li><a href=""></a></li>-->
 					</ul>
@@ -46,12 +46,12 @@
 		</nav>
 		<div class="wrapper-hero">
 		<div>
-			<h1 class="hero-title">Easy way to discover the world of information in any language</h1>
-			<p class="subtitle">Try our app and start to enjoy the process of learning languages</p>
+			<h1 class="hero-title" id="headerTitle">Easy way to discover the world of information in any language</h1>
+			<p class="subtitle" id="headerSubtitle">Try our app and start to enjoy the process of learning languages</p>
 		</div>
 
 		<div class="button-started">
-			<a class="get-started-button" href="#toGetStarted">get started</a>
+			<a class="get-started-button" href="#toGetStarted" id="buttonStarted">get started</a>
 		</div>
 		</div>
 		<!--<div class="header-separator">
@@ -62,8 +62,8 @@
 
 	<section class="content content-enjoyLearning">
 		<div class="enjoyIt-wrapper">
-			<div class="enjoyIt-heading"><h2>Learn languages with Pleasure</h2>
-			<p>Any sources as <b>Netflix</b> and <b>Youtube</b> can be your lessons.<br/>You only need to find your favourite sphere.</p></div>
+			<div class="enjoyIt-heading"><h2 id="headPleasure">Learn languages with Pleasure</h2>
+			<p id="contentPleasure">Any sources as <b>Netflix</b> and <b>Youtube</b> can be your lessons.<br/>You only need to find your favourite topic.</p></div>
 			<div class="imgEnjoy"><img src="img/CozylandingIllustration.svg" alt="Enjoy learning"></div>
 		</div>
 		
@@ -71,12 +71,12 @@
 
 	<section class="content content-context-memory">
 		<div class="context-title">
-			<h2 class="context-heading">All you have read or watched<br/>are clues for the memory</h2>
-			<p>Our training based on the materials you’ve learned before.</p>
+			<h2 class="context-heading" id="headMemory">All you have read or watched<br/>are clues for the memory</h2>
+			<p id="contentMemory">Our training based on the materials you’ve learned before.</p>
 
 		</div>
 		<div class="img-context-puzzle">
-			<img src="img/puzzle.svg" alt="">
+			<img src="img/puzzle2.svg" alt="">
 		</div>
 		
 	</section>
@@ -88,15 +88,16 @@
 				<img src="img/phone-dark.svg" alt="EasyLang app">
 			</div>
 			<div class="content-description">
-				<h2>It is <span>EasyLang.app</span><sup>BETA</sup></h2>
-				<p>EasyLang is the <a class="openSoftware" target="_blank" href="https://en.wikipedia.org/wiki/Free_and_open-source_software">open-source</a> software.<br/>Use it for FREE</p>
+				<h2 id="headOurApp">It is <span>EasyLang.app</span><sup>BETA</sup></h2>
+				<p id="contentOurApp">EasyLang is the <a class="openSoftware" target="_blank" href="https://en.wikipedia.org/wiki/Free_and_open-source_software" id="openSource">open-source</a> software.<br/>Use it for FREE</p>
 
 				<div class="button-group">
 					<a class="button-install">Web</a>
 					<a class="button-install">Android</a>
-					<a class="button-install">Extension</a>
+					<a class="button-install showButton" id="extension">for Chrome</a>
 					<a class="button-install">iOS</a>
 				</div>
+				<div class="button-install-extension"><a class="extensionGuide" id="extensionGuide">Installation guide</a></div>
 			</div>
 
 		</div>
@@ -104,13 +105,13 @@
 
 	<section class="content content-howItWorks" id="howItWorks">
 		<div>
-			<h2>How does our app work?</h2>
+			<h2 id="headHowItWorks">How does our app work?</h2>
 			<div class="slider-wrapper">
 				<div class="slider">
 					<div class="slides" data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","direction":"ltr"}'>
-					  <div class="slide 1th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-1.svg" alt="">  <figcaption class="image-carousel-caption">Play some video</figcaption></figure></div>
+					  <div class="slide 1th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-1.svg" alt="">  <figcaption class="image-carousel-caption" id="sliderCaptionFirst">Play some video</figcaption></figure></div>
 
-					  <div class="slide 2th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-2.svg" alt=""> <figcaption class="image-carousel-caption">Click "A"(Add) button</figcaption></figure></div>
+					  <div class="slide 2th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-2.svg" alt=""> <figcaption class="image-carousel-caption" id="sliderCaptionSecond">Click "A"(Add) button</figcaption></figure></div>
 					  <div class="slide 3th"> <img src="img/slider/svg/Illustration5-3.1.svg" alt=""> </div>
 					  <div class="slide 4th"> <img src="img/slider/svg/Illustration5-4.1.svg" alt=""> </div>
 					</div>
@@ -127,38 +128,38 @@
 		<section class="content content-sources" id="source">
 			<div class="sources-wrapper">
 				<div class="sources-title">
-					<h2>What are the sources for learning?</h2>
-					<p>Here you will find a few ideas</p>
+					<h2 id="headSource">What are the sources for learning?</h2>
+					<p id="contentSource">Here you will find a few ideas</p>
 				</div>
 				<div class="sources-block">
 					<div class="first-part">
 						<div class="sources-paragraph">
-							<h3>music</h3>
-							<p>Understand what are your favorite songs about</p>
+							<h3 id="music">music</h3>
+							<p id="musicParagraph">Understand what are your favorite songs about</p>
 						</div>
 						<div class="sources-paragraph">
-							<h3>news</h3>
-							<p>Read the news without checking dictionaries</p>
+							<h3 id="news">news</h3>
+							<p id="newsParagraph">Read the news without checking dictionaries</p>
 						</div>
 						<div class="sources-paragraph">
-							<h3>video</h3>
-							<p>Follow new bloggers on YouTube and other channels</p>
+							<h3 id="video">video</h3>
+							<p id="videoParagraph">Follow new bloggers on YouTube and other channels</p>
 						</div>
 					</div>
 					<div class="second-part">
 						<div class="sources-paragraph">
-							<h3>books</h3>
-							<p>Start reading books in the original language</p>
+							<h3 id="book">books</h3>
+							<p id="bookParagraph">Start reading books in the original language</p>
 						</div>
 						<div class="sources-paragraph">
-							<h3>movie</h3>
-							<p>Listen the original of your favorite movie characters</p>
+							<h3 id="movie">movies</h3>
+							<p id="movieParagraph">Listen the original of your favorite movie characters</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<div class="button-started"><a class="get-started-button2"  href="#toGetStarted">get started</a></div>
+		<div class="button-started"><a class="get-started-button2"  href="#toGetStarted" id="toGetStarted">get started</a></div>
 	</footer>
 
 </body> 

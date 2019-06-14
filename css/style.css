@@ -301,11 +301,11 @@ h2 > sup {
 	display: -o-flex;
 	display: flex;
 
+	margin-top: 4%;
 }
 
 .button-install {
 	padding: 2% 5%;
-	
  
     color: #f26d6d;
     background-color: #fff;
@@ -334,8 +334,25 @@ margin-left: 2%;
 	border: 2px solid rgba(183, 82, 82);	
 }
 
-.button-group {
-	margin-top: 4%;
+.button-install-extension {
+	position: relative;
+}
+
+.extensionGuide {
+	display: none;
+	color: #029fe2;
+    background-color: #d4f5f7;
+    border-radius: 20px;
+    position: absolute;
+    right: 35%;
+    margin-top: 1%;
+    padding: .5% 2.5%;
+    font-size: .8rem;
+  
+}
+
+.showButton:hover .button-install-extension.extensionGuide {
+	display: block;
 }
 
 .content-howItWorks h2 {
@@ -384,7 +401,7 @@ margin-left: 2%;
 	flex-direction: column;
 	justify-content: flex-start;
 	flex-basis: 50%;
-	padding: 20px 0 20px 50px;	
+	padding: 20px 40px 20px 50px;	
 	
 	margin-top: 5%;
 }
