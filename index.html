@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Effective tutor for learning languages through worldwide information">
+	<meta name="description" content="Language-tutor app for easy learning foreign languages">
 	<meta name="author" content="">
 	<link rel="shortcut icon" href="img/icon128.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
@@ -17,10 +17,10 @@
 	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
-	<script type="text/javascript" src="js/script.js"> </script>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/script.js"> </script>
 	<title>EasyLang.app</title>
 </head>
 <body>
@@ -93,18 +93,18 @@
 				<p id="contentOurApp">EasyLang is the <a class="openSoftware" target="_blank" href="https://en.wikipedia.org/wiki/Free_and_open-source_software" id="openSource">open-source</a> software.<br/>Use it for FREE</p>
 
 				<div class="button-group">
-					<a class="button-install">Web</a>
-					<a class="button-install">Android</a>
-					<a class="button-install">iOS</a>
-					<a class="button-install showButton" id="extension">Extension</a>
-					<a href="https://github.com/easably/extension/blob/master/README.md" class="button-install-extension" id="extensionGuide" target="_blank"><i class="fa fa-cog" ></i> Installation guide</a>
+					<a class="button-install" href="http://easy4learn.com/tutor" target="_blank">Web</a>
+					<a class="button-install" href="https://github.com/easably/context-tutor/releases/download/0.1.11/app-debug.apk">Android</a>
+					<a class="button-install" href="https://testflight.apple.com/join/w0Dyxqef" target="_blank">iOS</a>
+					<a class="button-install showButton" id="extension" href="https://github.com/easably/extension/releases/download/0.1.2/extension-master.zip">Extension</a>
+					<a href="https://github.com/easably/extension/blob/master/README.md" class="button-install-extension" id="extensionGuide" target="_blank" role="button"><i class="fa fa-cog" ></i> Installation guide</a>
 				</div>	
 			</div>
 
 		</div>
 	</section>
 
-	<section class="content content-howItWorks" id="howItWorks">
+	<section class="content content-howItWorks" id="howItWork">
 		<div>
 			<h2 id="headHowItWorks">How does our app work?</h2>
 			<div class="slider-wrapper">
@@ -160,12 +160,9 @@
 				</div>
 			</div>
 		</section>
-		<div class="button-started"><a class="get-started-button2"  href="#toGetStarted" id="toGetStarted">get started</a></div>
+		<div class="button-started"><a class="get-started-button2"  href="#toGetStarted" id="getStarted">get started</a></div>
 	</footer>
-
-</body> 
-
-	<script>
+<script>
 		$('.slides').slick({
 	  dots: true,
 	  infinite: true,
@@ -179,5 +176,8 @@
 	$('.menu-main').toggleClass('menu-main_active');
 });
 	</script>
+</body> 
+
+	
 
 </html>

@@ -1,3 +1,10 @@
+@media screen and (min-width: 1550px){
+	body{
+		font-size: 1.2rem;
+	}
+
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 	.menu-block {
 		width: 40%;
@@ -114,8 +121,11 @@
 
 	h2 {
 		font-size: 1.1rem;
-		}
 
+		}
+		.enjoyIt-heading, .context-title, .sources-title {
+			padding: 10px;
+		}
 	h3 {
 		font-size: .9rem;
 	}
@@ -125,14 +135,14 @@
 		}
 
 	.content {
-		margin: 15% 0;
+		margin: 25% 0;
 	}
 
 	.button-started {
 		width: 150px;
 	}
 	.button-started .get-started-button2, .button-started .get-started-button {
-		padding: 10px 0 !important;
+		padding: 15px 0 !important;
 		font-size: 0.7rem;
 	}
 
@@ -145,5 +155,10 @@
 
 	.sources-paragraph p {
 		font-size: .8rem;
+	}
+
+	.call-to-action {
+		-webkit-background-size: 180%;
+		background-size: 180%;
 	}
 }

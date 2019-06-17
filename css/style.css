@@ -344,7 +344,6 @@ h2 > sup {
 	display: none;
 	position: absolute; bottom: -24px; right: 0%;
 	padding: 3px 6px; 
-	width: 130px;
 	border-radius: 20px;
 	
 	color: #029fe2;
@@ -408,7 +407,7 @@ h2 > sup {
 
 .sources-paragraph{
 	margin:  2%;
-	padding: 6%;
+	padding: 8%;
 
 	border-radius: 25px;
 	background:  #45B8FF;	
