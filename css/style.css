@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kodchasan:600&display=swap');
 
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -49,6 +52,7 @@ a {
 	letter-spacing: 0.7px;
 	color: white;
 	text-align: center;
+	cursor: pointer;
 }
 
 li {
@@ -300,21 +304,23 @@ h2 > sup {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-
+	width: 100%;
 	margin-top: 4%;
+	position: relative;
 }
 
 .button-install {
-	padding: 2% 5%;
- 
+	padding: 8px 12px;
+ 	width: 22.019%;
     color: #f26d6d;
     background-color: #fff;
     border-radius: 50px;
     border: 2px solid #f26d6d;
    
 }
+
 .button-install:not(:first-of-type) {
-margin-left: 2%;
+	margin-left: 2%;
 }
 
 .button-install:first-of-type {
@@ -335,24 +341,21 @@ margin-left: 2%;
 }
 
 .button-install-extension {
-	position: relative;
-}
-
-.extensionGuide {
 	display: none;
+	position: absolute; bottom: -24px; right: 0%;
+	padding: 3px 6px; 
+	width: 130px;
+	border-radius: 20px;
+	
 	color: #029fe2;
     background-color: #d4f5f7;
-    border-radius: 20px;
-    position: absolute;
-    right: 35%;
-    margin-top: 1%;
-    padding: .5% 2.5%;
+
     font-size: .8rem;
-  
 }
 
-.showButton:hover .button-install-extension.extensionGuide {
+#extension:hover ~ .button-install-extension {
 	display: block;
+	
 }
 
 .content-howItWorks h2 {
@@ -363,14 +366,6 @@ margin-left: 2%;
 .extension img{
 	width: 100%;
 }
-
-/*puzzle*/
-/*.content-context-memory {
-	background: url('../img/puzzle.svg') no-repeat;
-	height: 400px;
-
-}
-*/
 
 .context-title {
 	text-align: right;
