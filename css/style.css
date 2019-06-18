@@ -89,10 +89,12 @@ li {
 .hero {
 	background: no-repeat bottom/cover url('../img/bg-3.svg');
 	text-align: center;
-}
+
+}	
 
 .wrapper-hero {
 	padding: 8% 0 20%;
+
 }
 
 .navbar {
@@ -112,9 +114,9 @@ li {
 
 	display: flex;
 	width:  100%;
-	background-color: rgba(255, 255, 255);
+	background-color: white;
 
-	z-index: 1000;
+	z-index: 900;
 	box-shadow: 0 0 4px rgba(2,0,0,.33);
 	animation: showMenu .4s;
 	
@@ -391,18 +393,29 @@ h2 > sup {
 }
 
 .sources-title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	flex-basis: 50%;
-	padding: 20px 40px 20px 50px;	
 	
+	padding: 20px 40px 20px 50px;	
 	margin-top: 5%;
 }
 
+.sources-block {
+	flex-basis: 50%;
+}
+
+ .sources-block .first-part,
  .sources-block .second-part {
 	flex-direction: column;
 	justify-content: center;
+	flex-basis: 50%;
+
 }
 
 .sources-paragraph{
@@ -429,7 +442,8 @@ h2 > sup {
 
 .call-to-action {
 	padding-bottom: 3%;
-	background: url('../illustration6(3).svg') bottom no-repeat;
+	background: url('../illustration6(3).svg') bottom/cover no-repeat;
+	-webkit-background-size: 100%;
 	background-size: 100%;
 
 }

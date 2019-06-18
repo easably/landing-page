@@ -99,6 +99,10 @@
 		width: 100%;
 	}
 
+	.enjoyIt-heading, .context-title, .sources-title {
+			padding: 10px;
+		}
+
 	.sources-title {
 		flex-basis: 100%;
 		text-align: center;
@@ -122,9 +126,6 @@
 	h2 {
 		font-size: 1.1rem;
 
-		}
-		.enjoyIt-heading, .context-title, .sources-title {
-			padding: 10px;
 		}
 	h3 {
 		font-size: .9rem;
