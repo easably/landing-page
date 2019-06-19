@@ -1,5 +1,9 @@
 /*menu button for mobile version*/
 @media (max-width: 1024px) {
+.menu-wrapper {
+	height: 100%;
+}
+
 	.menu-btn {
 		display: block;
 		width: 40px;

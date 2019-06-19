@@ -118,7 +118,7 @@ li {
 
 	z-index: 900;
 	box-shadow: 0 0 4px rgba(2,0,0,.33);
-	animation: showMenu .4s;
+	animation: showMenu .3s;
 	
 }
 .fixed-bar .logo-light{
@@ -138,8 +138,9 @@ li {
 	}
 }
 
+
 /*logo*/
-.logo, .menu-block {
+.logo, .menu-wrapper {
 	width: 30%;
 	max-height: 80px;
 }
@@ -164,13 +165,28 @@ li {
 }*/
 
 /*menu*/
+
+.menu-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.menu-block {
+	width: 100%;
+}
+
 .menu-block .menu-main {
 	position: relative;
 	right: 5%;
 
 	display: flex;
 	justify-content: space-around;
-	padding: 4% 0;
+	padding: 25px;
 	align-items: center;
 	text-transform: capitalize;
 }
@@ -352,10 +368,15 @@ h2 > sup {
     background-color: #d4f5f7;
 
     font-size: .8rem;
+    opacity: 0;
+
 }
 
 #extension:hover ~ .button-install-extension {
 	display: block;
+	opacity: 1;
+	transition: opacity .3s linear;
+
 	
 }
 
