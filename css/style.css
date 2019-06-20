@@ -385,6 +385,42 @@ h2 > sup {
 	margin-bottom: 2%;
 }
 
+.blog {
+	margin: 0 0 25%;
+}
+
+.blog a {
+	display: block;
+	width: 15%;
+	background-color: #12aee2;
+	color: white;
+	padding: 1.5% 4%;
+	margin: 0 auto;
+	border-radius: 50px;
+	font-size: 1.5rem;
+	letter-spacing: 4px;
+}
+
+.blog a:hover {
+	background-color: #6fc7e2;
+	transition: all .3s;
+}
+
+.blog h2 {
+	color: #6ec1e4;
+	font-weight: 700;
+}
+
+
+.blog-button {
+	background-image: url("../decor.svg");
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	-webkit-background-size: 40%;
+	background-size: 40%;
+}
+
+
 .extension img{
 	width: 100%;
 }
