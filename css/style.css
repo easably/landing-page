@@ -87,7 +87,7 @@ li {
 }
 
 .hero {
-	background: no-repeat bottom/cover url('../img/bg-3.svg');
+	background: no-repeat bottom/cover url('../img/backgrounds/bg-3.svg');
 	text-align: center;
 
 }	
@@ -141,7 +141,7 @@ li {
 
 /*logo*/
 .logo, .menu-wrapper {
-	width: 30%;
+	width: 40%;
 	max-height: 80px;
 }
 
@@ -386,7 +386,7 @@ h2 > sup {
 }
 
 .blog {
-	margin: 0 0 25%;
+	margin: 0 0 10%;
 }
 
 .blog a {
@@ -409,11 +409,12 @@ h2 > sup {
 .blog h2 {
 	color: #6ec1e4;
 	font-weight: 700;
+	text-align: center;
 }
 
 
 .blog-button {
-	background-image: url("../decor.svg");
+	background-image: url("../img/blog/svg/decor.svg");
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	-webkit-background-size: 40%;
@@ -499,7 +500,7 @@ h2 > sup {
 
 .call-to-action {
 	padding-bottom: 3%;
-	background: url('../illustration6(3).svg') bottom/cover no-repeat;
+	background: url('../img/illustration6(3).svg') bottom/cover no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 
