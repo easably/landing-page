@@ -1,4 +1,4 @@
-"langEng" : {
+{"en" : {
 	"ourApp" : "our app",
 	"howItWork": "how it works",
 	"learningSourses" : "sources for learning",
@@ -30,4 +30,5 @@
 	"movie" : "movies",
 	"movieParagraph" : "Listen the original of your favorite movie characters",
 	"getStarted" : "get started"
+}
 }

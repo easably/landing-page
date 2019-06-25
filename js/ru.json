@@ -1,4 +1,4 @@
-"langEng" : {
+{"ru" : {
 	"ourApp" : "Приложение",
 	"howItWork": "Как использовать",
 	"learningSourses" : "Ресурсы",
@@ -30,4 +30,5 @@
 	"movie" : "movies",
 	"movieParagraph" : "Смотри фильмы без озвучания на родном языке",
 	"getStarted" : "Начать"
+}
 }

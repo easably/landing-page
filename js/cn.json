@@ -1,4 +1,4 @@
-"langCn" : {
+{"cn" : {
 	"ourApp" : "我们的应用",
 	"howItWork": "这个怎么运作",
 	"learningSourses" : "学习的来源",
@@ -30,4 +30,5 @@
 	"movie" : "电影",
 	"movieParagraph" : "聆听您最喜爱电影的原文",
 	"getStarted" : "开始吧"
+}
 }
