@@ -32,10 +32,10 @@
 					<span class="logo-light">EasyLang</span>
 				</div>
 				<div class="lang">
-					<form action="get" >
-						<select name="changeLang" id="getLang">
-						<option value="eng" id="english">English</option>
-						<option value="rus" id="russian">Русский</option>
+					<form action="" >
+						<select name="changeLang" id="getLang" onchange="changeLocale()">
+						<option value="en" id="english">English</option>
+						<option value="ru" id="russian">Русский</option>
 						<option value="cn" id="chinese">中文</option>
 					</select>
 					</form>
@@ -47,7 +47,7 @@
 							<li><a href="https://easylang.app/blog" class="menu-nav__link" id="ourBlog">our blog</a></li>
 							<li><a href="#toGetStarted" class="menu-nav__link" id="ourApp">our app</a></li>
 							<li><a href="#howItWork" class="menu-nav__link" id="HowItWork">how it works</a></li>
-							<li><a href="#source" class="menu-nav__link" id="learningSourses">sources for learning</a></li>
+							<li><a href="#source" class="menu-nav__link" id="learningSources">sources for learning</a></li>
 							<!--<li><a href=""></a></li>
 							<li><a href=""></a></li>-->
 						</ul>
@@ -121,25 +121,39 @@
 			<div class="slider-wrapper">
 				<div class="slider">
 					<div class="slides" data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","direction":"ltr"}'>
-					  <div class="slide 1th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-1.svg" alt="">  <figcaption class="image-carousel-caption" id="sliderCaptionFirst">Play some video</figcaption></figure></div>
+					  <div class="slide 1th">
+					  	<figure class="slick-slide-inner" >
+					  	 <img src="img/slider/svg/Illustration5-1.svg" alt="" />  
+					  	 <figcaption class="image-carousel-caption" id="sliderCaptionFirst">Play some video</figcaption>
+					  	</figure>
+					  </div>
 
-					  <div class="slide 2th"><figure class="slick-slide-inner"> <img src="img/slider/svg/Illustration5-2.svg" alt=""> <figcaption class="image-carousel-caption" id="sliderCaptionSecond">Click "A"(Add) button</figcaption></figure></div>
-					  <div class="slide 3th"> <img src="img/slider/svg/Illustration5-3.1.svg" alt=""> </div>
-					  <div class="slide 4th"> <img src="img/slider/svg/Illustration5-4.1.svg" alt=""> </div>
+					  <div class="slide 2th">
+					  	<figure class="slick-slide-inner" > 
+					  		<img src="img/slider/svg/Illustration5-2.svg" alt="" />
+					  		<figcaption class="image-carousel-caption" id="sliderCaptionSecond">Click "A"(Add) button</figcaption>
+					  	</figure>
+					  </div>
+					  <div class="slide 3th" id="slideThird"> <img src="img/slider/svg/Illustration5-3.1.svg" alt=""> </div>
+					  <div class="slide 4th" id="slideFourth"> <img src="img/slider/svg/Illustration5-4.1.svg" alt=""> </div>
 				</div>
 			</div>
 		</div>
-
 
 		<div class="extension">
 				<div class="extension-img"> <img src="img/ExtensionIllustration1.png" alt="extension for Chrome"></div>
 			</div>
 		</div>
 	</section>
+
 	<div class="blog">
-				<h2 id="blog">More you can find out at</h2>
-				<div class="blog-button"><a href="https://easylang.app/blog">OUR BLOG</a></div>
+		<h2 id="blog">More you can find out at</h2>
+		<div class="blog-button">
+			<a href="https://easylang.app/blog" id="Blog">OUR BLOG</a>
 		</div>
+	</div>
+
+
 	<footer class="call-to-action">
 
 		<section class="content content-sources" id="source">
