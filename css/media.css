@@ -28,6 +28,11 @@
 		p {
 		font-size: 1.2rem;
 	}
+
+		.lang {
+		padding-left: 110px;
+	}
+
 		.button-started {
 		width: 220px;
 	}
@@ -36,6 +41,9 @@
 		font-size: 1rem;
 	}
 	
+.blog a {
+        font-size: 1.1rem;
+}
 		.sources-wrapper, .sources-block{
 		flex-wrap: wrap;
 		justify-content: center;
@@ -55,6 +63,7 @@
 
 		.button-started .get-started-button2 {
 		width: 60%;
+
 	}
 
 
@@ -109,6 +118,16 @@
 	.enjoyIt-heading, .context-title, .sources-title {
 			padding: 10px;
 		}
+		
+
+	.blog-button {
+		-webkit-background-size: 50%;
+		background-size: 50%;
+	}	
+
+	.blog a {
+        font-size: 1.1rem;width: 20%;
+		}
 
 	.sources-title {
 		flex-basis: 100%;
@@ -151,15 +170,19 @@
     margin-left: auto;
 	}
 
+	.lang {
+    padding-left: 20px;
+	}
+
+	.lang, .menu-wrapper {
+		width: auto;
+	}
+
 	.content {
 		margin: 25% 0;
 	}
 
-	.button-started {
-		width: 150px;
-	}
 	.button-started .get-started-button2, .button-started .get-started-button {
-		padding: 10px 0 !important;
     	font-size: 0.7rem;
     	width: 70%;
     	margin: 0 auto;
@@ -171,6 +194,19 @@
 	.image-carousel-caption {
 		font-size: .7rem;
 	}
+
+
+	.blog-button {
+		-webkit-background-size: 55%;
+		background-size: 55%;
+	}	
+
+	.blog a {
+		font-size: .7rem;
+    	width: 25%;
+    	letter-spacing: 2px;
+    	    padding: 2% 3%;
+		}
 	
 	.sources-block {
     	flex-basis: 95%;
