@@ -14,11 +14,11 @@ body {
 	overflow-x: hidden;
 }
 
-h1, p, a, li {
+p, li {
 	font-family: 'Muli', sans-serif;
 }
 
-h2, h3, select {
+h1, a, h2, h3, select {
 	font-family: 'Comfortaa', cursive;
 }
 
@@ -255,7 +255,7 @@ select {
 	display: block;	
     width: auto;
     
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     color: #fff;
     
@@ -411,12 +411,12 @@ h2 > sup {
 .blog a {
 	display: block;
 	width: 15%;
-	background-color: #12aee2;
+	background-color: #45B8FF;
 	color: white;
 	padding: 1.5% 4%;
 	margin: 0 auto;
 	border-radius: 50px;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	letter-spacing: 4px;
 }
 
@@ -426,7 +426,7 @@ h2 > sup {
 }
 
 .blog h2 {
-	color: #6ec1e4;
+	color: #45B8FF;
 	font-weight: 700;
 	text-align: center;
 }
@@ -440,6 +440,10 @@ h2 > sup {
 	background-size: 40%;
 }
 
+.blog-button a {
+	text-transform: uppercase;
+	font-weight: 800;
+}
 
 .extension img{
 	width: 100%;
@@ -514,7 +518,9 @@ h2 > sup {
 
 .button-started .get-started-button2 {
 	padding: 25px 75px;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	width: 70%;
+	margin: 0 auto;  
 }
 
 .call-to-action {

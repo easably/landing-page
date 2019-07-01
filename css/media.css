@@ -52,6 +52,12 @@
 		p {
 			font-size: 1rem;
 		}
+
+		.button-started .get-started-button2 {
+		width: 60%;
+	}
+
+
 }
 
 @media(max-width: 768px) {
@@ -155,7 +161,7 @@
 	.button-started .get-started-button2, .button-started .get-started-button {
 		padding: 10px 0 !important;
     	font-size: 0.7rem;
-    	width: 80%;
+    	width: 70%;
     	margin: 0 auto;
 	}
 

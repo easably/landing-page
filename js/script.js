@@ -16,7 +16,7 @@ var selectLang = document.getElementById('getLang');
 	if (selectLang.value == 'en') {
 		locale = 'sgwrz'; 
 	} else if (selectLang.value == 'ru') {
-		locale = 'ecxqn'; 
+		locale = 'ow47b'; 
 	} else if (selectLang.value == 'cn') {
 		locale = '1chaf3'; 
 	} else {
@@ -24,7 +24,7 @@ var selectLang = document.getElementById('getLang');
 	}
 
 fetch('https://api.myjson.com/bins/' + locale).then(data => data.json()).then(lang => { 
-debugger;
+/*debugger;*/	
 document.getElementById('ourBlog').innerHTML = lang.ourBlog; 
 document.getElementById('ourApp').innerHTML = lang.ourApp; 
 document.getElementById('HowItWork').innerHTML = lang.HowItWork;
