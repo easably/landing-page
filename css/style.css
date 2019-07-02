@@ -59,6 +59,48 @@ li {
 	list-style: none;
 }
 
+
+#btnTop {
+  width: 60px;
+  height: 60px;
+  background-color: #56D3F1;
+  position: fixed;
+  display: none;
+  border-radius: 50px;
+  cursor: pointer;z-index: 99;bottom: 50px;
+  right: 20px;
+  border: none;
+  
+}
+
+#btnTop:hover {
+	background-color: #ffb43f;
+	transition: all .2s linear;
+	}
+
+#btnTop::before {
+  content: '';
+  position: absolute;
+
+  top: 9%;
+  left: 32.5%;
+  border: 11px solid;
+  border-bottom-color: white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+#btnTop::after {
+    content: '';
+  position: absolute;
+  width: 9px;
+  background-color: #fff;
+  height: 15px;
+  top: 44%;
+  left: 43%;
+}
+
 .slick-slide {
 	height: auto !important;
 }
@@ -75,9 +117,9 @@ li {
 	text-align: center;
 	font-size: 2rem;
 	font-family: 'Comfortaa', cursive;
-	
+
 }
-.slick-dots li button:before {
+.slick-dots li button::before {
 	color: #00b9ed !important;
 	font-size: 20px !important;
 }

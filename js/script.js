@@ -7,6 +7,18 @@ window.onscroll = function showHeader() {
 	}
 }
 
+window.onscroll = function scrollTop() {
+	  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    document.getElementById("btnTop").style.display = "block";
+  } else {
+    document.getElementById("btnTop").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 function changeLocale(locale) { 
 
