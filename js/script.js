@@ -18,7 +18,7 @@ var selectLang = document.getElementById('getLang');
 	} else if (selectLang.value == 'ru') {
 		locale = 'ow47b'; 
 	} else if (selectLang.value == 'cn') {
-		locale = '1chaf3'; 
+		locale = '18yhoj'; 
 	} else {
 		locale = 'sgwrz'; 
 	}
