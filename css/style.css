@@ -177,12 +177,12 @@ select {
 */
 
 .logo {
-	width: 15%;
+	width: 220px;
 }
 .logo-light {
 	position: absolute;
 	left: 3%;
-	top: 15%; 
+	top: 20%; 
 	font-size: 1.8rem;
 	font-family: 'Kodchasan', sans-serif;
 	font-weight: bold;
@@ -209,7 +209,7 @@ select {
 
 	display: flex;
 	justify-content: space-around;
-	padding: 25px;
+	padding: 25px; padding-right: 0;
 	align-items: center;
 	text-transform: capitalize;
 }
@@ -304,6 +304,10 @@ select {
 	flex-wrap: nowrap;
 }
 
+.img-phone {
+	flex-basis: 50%;
+	margin-left: 5%;
+}
 
 .img-phone img{
 	text-align: left;
@@ -346,7 +350,7 @@ h2 > sup {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	width: 50%;
+	width: 60%;
 	margin-top: 4px;
 	position: relative;
 	align-items: center;
@@ -356,27 +360,26 @@ h2 > sup {
 	margin-left: 4%;
 }
 
-.button-group-1 a{
+.button-group-1 .button-install{
 	background-color: #56D3F1;
 }
 
 .button-group-2 {
 	margin-left: 2%;
-	width: 25%;
+	width: 30%;
 }
 
-.button-group-2 a{
+.button-group-2 .button-install {
 	background-color: #46B8FF;
 }
 
-.button-group-3 a {
+.button-group-3 .button-install {
 	background-color: #5396EF;
 }
 
 .button-install {
 	padding: 20px 5px;
  	width: 100%;
-    margin-bottom: 1.5%;
     background-color: #56D3F1;
     border-radius: 50px;
     display: block;
@@ -429,6 +432,7 @@ h2 > sup {
 	border: 2px solid rgba(183, 82, 82);	
 }
 */
+
 
 /*.button-install-extension {
 	display: none;

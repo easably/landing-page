@@ -14,13 +14,13 @@ var selectLang = document.getElementById('getLang');
 	var locale = '';
 
 	if (selectLang.value == 'en') {
-		locale = 'sgwrz'; 
+		locale = '15z4pn'; 
 	} else if (selectLang.value == 'ru') {
 		locale = 'ow47b'; 
 	} else if (selectLang.value == 'cn') {
 		locale = '18yhoj'; 
 	} else {
-		locale = 'sgwrz'; 
+		locale = '15z4pn'; 
 	}
 
 fetch('https://api.myjson.com/bins/' + locale).then(data => data.json()).then(lang => { 

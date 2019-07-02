@@ -53,12 +53,19 @@
 
 		p {
 			font-size: 1rem;
-		}
+	}
 
 		.button-started .get-started-button2 {
 		width: 60%;
-
 	}
+
+		.button-group {
+			width: 85%;
+		}
+
+		.button-group-2 {
+			width: 42.5%;
+		}
 
 
 }
@@ -86,7 +93,10 @@
 
 	.app-download-wrapper{
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: center;	
+}
+	.img-phone {
+		flex-basis: 100%;
 	}
 	.img-phone img {
 		width: 70%;
@@ -94,10 +104,29 @@
 		margin-left: 10%;
 	}
 
+	.button-block {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.button-install {
+		padding: 10px 3px;
+	}
+
+	.button-web {
+		margin-left: -50%;
+	}
+
 	.content-description {	
 		margin: 0 auto;
 		margin-top: 3%;
 		text-align: center;
+		flex-basis: 100%;
 
 	}
 
@@ -153,15 +182,16 @@
 	
 	p, a {
 		font-size: .7rem;
-		}
+	}
+
 	.wrapper-hero {
-    padding: 4% 0 25%;
+    	padding: 4% 0 25%;
 	}
 
 	.logo-light {
 		font-size: 1.4rem;
-    right: 5%;
-    margin-left: auto;
+    	right: 5%;
+    	margin-left: auto;
 	}
 
 	.lang {
