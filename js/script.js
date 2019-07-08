@@ -5,10 +5,8 @@ window.onscroll = function showHeader() {
 	} else {
 		stickyMenu.classList.remove('fixed-bar');
 	}
-}
 
-window.onscroll = function scrollTop() {
-	  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+	if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
     document.getElementById("btnTop").style.display = "block";
   } else {
     document.getElementById("btnTop").style.display = "none";

@@ -491,7 +491,7 @@ h2 > sup {
 
 }
 */
-.button-chrome:hover ~ .button-guide {
+.button-group-1:hover .button-guide {
 	visibility: visible;
 }
 
