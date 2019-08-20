@@ -34,7 +34,7 @@ var selectLang = document.getElementById('getLang');
 	}
 
 fetch('https://api.myjson.com/bins/' + locale).then(data => data.json()).then(lang => { 
-/*debugger;*/	
+
 document.getElementById('ourBlog').innerHTML = lang.ourBlog; 
 document.getElementById('ourApp').innerHTML = lang.ourApp; 
 document.getElementById('HowItWork').innerHTML = lang.HowItWork;
