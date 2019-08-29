@@ -34,43 +34,13 @@ var selectLang = document.getElementById('getLang');
 	}
 
 fetch('https://api.myjson.com/bins/' + locale).then(data => data.json()).then(lang => { 
+	const ignoreIdList = ['slideThird', 'slideFourth'];
 
-document.getElementById('ourBlog').innerHTML = lang.ourBlog; 
-document.getElementById('ourApp').innerHTML = lang.ourApp; 
-document.getElementById('HowItWork').innerHTML = lang.HowItWork;
-document.getElementById('learningSources').innerHTML = lang.learningSources;
-document.getElementById('headerTitle').innerHTML = lang.headerTitle;
-document.getElementById('headerSubtitle').innerHTML = lang.headerSubtitle;
-document.getElementById('buttonStarted').innerHTML = lang.buttonStarted;
-document.getElementById('headPleasure').innerHTML = lang.headPleasure;
-document.getElementById('contentPleasure').innerHTML = lang.contentPleasure;
-document.getElementById('headMemory').innerHTML = lang.headMemory;
-document.getElementById('contentMemory').innerHTML = lang.contentMemory;
-document.getElementById('headOurApp').innerHTML = lang.headOurApp;
-document.getElementById('contentOurApp').innerHTML = lang.contentOurApp;
-document.getElementById('extension').innerHTML = lang.extension;
-document.getElementById('extensionGuide').innerHTML = lang.extensionGuide;
-document.getElementById('headHowItWorks').innerHTML = lang.headHowItWorks;
-document.getElementById('sliderCaptionFirst').innerHTML = lang.sliderCaptionFirst;
-document.getElementById('sliderCaptionSecond').innerHTML = lang.sliderCaptionSecond;
-/*document.getElementById('slideThird').innerHTML = lang.slideThird;
-document.getElementById('slideFourth').innerHTML = lang.slideFourth;
-*/document.getElementById('blog').innerHTML = lang.blog;
-document.getElementById('Blog').innerHTML = lang.Blog;
-document.getElementById('headSource').innerHTML = lang.headSource;
-document.getElementById('contentSource').innerHTML = lang.contentSource;
-document.getElementById('music').innerHTML = lang.music;
-document.getElementById('musicParagraph').innerHTML = lang.musicParagraph;
-document.getElementById('news').innerHTML = lang.news;
-document.getElementById('newsParagraph').innerHTML = lang.newsParagraph;
-document.getElementById('video').innerHTML = lang.video;
-document.getElementById('videoParagraph').innerHTML = lang.videoParagraph;
-document.getElementById('book').innerHTML = lang.book;
-document.getElementById('bookParagraph').innerHTML = lang.bookParagraph;
-document.getElementById('movie').innerHTML = lang.movie;
-document.getElementById('movieParagraph').innerHTML = lang.movieParagraph;
-document.getElementById('getStarted').innerHTML = lang.getStarted;
-
+	Object.keys(lang).forEach(function(id) {
+		if (ignoreIdList.indexOf(id) === -1) {
+			document.getElementById(id).innerHTML = lang[id]; 
+		}
+	});
 }); 
 
 
