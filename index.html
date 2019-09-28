@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,216 +12,233 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/animate.css">
+	
 	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="slick/slick.min.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"> </script>
 	<title>EasyLang.app</title>
 </head>
+
 <body>
-	
-	<header class="hero">
-		<nav class="navbar">
-			<div class="sticky-bar">
-				<div class="logo">
-					<span class="logo-light">EasyLang</span>
-				</div>
-				<div class="lang">
-					<form action="" >
-						<select name="changeLang" id="getLang" onchange="changeLocale()">
+	<nav class="navbar">
+		<div class="sticky-bar">
+			<div class="logo">
+				<span class="logo-light">EasyLang</span>
+			</div>
+			<div class="lang">
+				<form action="">
+					<select name="changeLang" id="getLang" onchange="changeLocale()">
 						<option value="en" id="english">English</option>
 						<option value="ru" id="russian">Русский</option>
 						<option value="cn" id="chinese">中文</option>
 					</select>
-					</form>
-				</div>
-				<div class="menu-wrapper">
-					<div class="menu-block">
-					
-						<ul class="menu-main">
-							<li><a href="#blog" class="menu-nav__link" id="ourBlog">our blog</a></li>
+				</form>
+			</div>
+			<div class="menu-wrapper">
+				<div class="menu-block">
+					<div class="menu-main">
+						<div class="overlay"></div>
+						<ul class="menu-main-list">
+							<li>
+									<span class="menu-logo">EasyLang</span>
+							</li>
 							<li><a href="#toGetStarted" class="menu-nav__link" id="ourApp">our app</a></li>
 							<li><a href="#howItWork" class="menu-nav__link" id="HowItWork">how it works</a></li>
 							<li><a href="#source" class="menu-nav__link" id="learningSources">sources for learning</a></li>
-							<!--<li><a href=""></a></li>
-							<li><a href=""></a></li>-->
+							<li><a href="https://easylang.app/blog/" class="menu-nav__link" id="ourBlog" target="_blank">blog</a></li>
 						</ul>
+					</div>
 				</div>
-					<a href="#" class="menu-btn" onclick="return false;"><span></span></a>
-				</div>
+				<div class="menu-btn" onclick="return false;"><span></span></div>
 			</div>
-		</nav>
+		</div>
+	</nav>
 
+	<header class="hero">
 		<div class="wrapper-hero">
 			<div>
-				<h1 class="hero-title" id="headerTitle">Easy way to discover the world of information in any language</h1>
-				<p class="subtitle" id="headerSubtitle">Try our app and start to enjoy the process of learning languages</p>
+				<h1 class="hero-title" id="headerTitle">Learn a foreign language and open the world of new information
+				</h1>
+				<p class="subtitle" id="headerSubtitle">With our mobile app</p>
 			</div>
 
 			<div class="button-started">
 				<a class="get-started-button" href="#toGetStarted" id="buttonStarted">get started</a>
 			</div>
 		</div>
-		<!--<div class="header-separator">
+	</header>
+	<!--<div class="header-separator">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"> <path class="svg-white-bg" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path> </svg>
 		</div>-->
-	</header>
 
-
-	<section class="content content-enjoyLearning">
-		<div class="enjoyIt-wrapper">
-			<div class="enjoyIt-heading"><h2 id="headPleasure">Learn languages with pleasure</h2>
-			<p id="contentPleasure">Any sources as <b>Netflix</b> and <b>Youtube</b> can be your lessons.<br/>You only need to find your favourite topic.</p></div>
-			<div class="imgEnjoy"><img src="img/landingillustration2.svg" alt="Enjoy learning"></div>
-		</div>
-		
-	</section>
-
-	<section class="content content-context-memory">
-		<div class="context-title">
-			<h2 class="context-heading" id="headMemory">All you have read or watched<br/>are clues for the memory</h2>
-			<p id="contentMemory">Our training based on the materials you’ve learned before.</p>
-
-		</div>
-		<div class="img-context-puzzle">
-			<img src="img/puzzle2.svg" alt="">
-		</div>
-		
-	</section>
-<button onclick="topFunction()" id="btnTop" title="Go to top"></button>
-	<section  class="content content-ourApp" id="toGetStarted">
-		<div class="app-download-wrapper" >
-
-			<div class="img-phone">
-				<img src="img/landingillustration4.svg" alt="EasyLang app">
-			</div>
-			<div class="content-description">
-
-				<h2 id="headOurApp"><span>EasyLang.app</span><sup>BETA</sup></h2>
-				<p id="contentOurApp">EasyLang is the <a class="openSoftware" target="_blank" href="https://en.wikipedia.org/wiki/Free_and_open-source_software" id="openSource">open-source</a> software.<br/>Use it for FREE</p>
-
-				<div class="button-block">
-
-					<div class="button-group button-group-1">
-						<a class="button-install button-chrome" id="extension" href="https://github.com/easably/extension/releases/download/0.1.2/extension-master.zip">for Chrome</a>
-						<a href="https://github.com/easably/extension/blob/master/README.md" class="button-install button-guide" id="extensionGuide" target="_blank" role="button"><i class="fa fa-cog" ></i> Installation guide</a>
-					</div>
-
-					<div class="button-group button-group-2"><a class="button-install button-web" href="http://easy4learn.com/tutor" target="_blank">Web</a>
-					</div>
-
-					<div class="button-group button-group-3">
-						<a class="button-install button-android" href="https://github.com/easably/context-tutor/releases/download/0.1.11/app-debug.apk">Android</a>
-						<a class="button-install button-iOS" href="https://testflight.apple.com/join/w0Dyxqef" target="_blank">iOS</a>
-					</div>
-
-				</div>	
-			</div>
-
-		</div>
-	</section>
-
-	<section class="content content-howItWorks" id="howItWork">
-		<div>
-			<h2 id="headHowItWorks">How does our app work?</h2>
-			<div class="slider-wrapper">
-				<div class="slider">
-					<div class="slides" data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","direction":"ltr"}'>
-					  <div class="slide 1th">
-					  	<figure class="slick-slide-inner" >
-					  	 <img src="img/slider/svg/Illustration5-1.svg" alt="" />  
-					  	 <figcaption class="image-carousel-caption" id="sliderCaptionFirst">Play some video</figcaption>
-					  	</figure>
-					  </div>
-
-					  <div class="slide 2th">
-					  	<figure class="slick-slide-inner" > 
-					  		<img src="img/slider/svg/Illustration5-2.svg" alt="" />
-					  		<figcaption class="image-carousel-caption" id="sliderCaptionSecond">Click "A"(Add) button</figcaption>
-					  	</figure>
-					  </div>
-					  <div class="slide 3th" id="slideThird"> <img src="img/slider/svg/Illustration5-3.1.svg" alt=""> </div>
-					  <div class="slide 4th" id="slideFourth"> <img src="img/slider/svg/Illustration5-4.1.svg" alt=""> </div>
+	<div class="container">
+		<section class="content content-enjoyLearning">
+			<div class="enjoyIt-wrapper">
+				<div class="enjoyIt-heading">
+					<h2 id="headPleasure">Learn languages with Pleasure</h2>
+					<p id="contentPleasure">Any sources as <b>Netflix</b> and <b>Youtube</b> can be your
+						lessons.<br />You only need to find your favourite</p>
 				</div>
+				<div class="imgEnjoy"><img src="img/landingillustration2.svg" alt="Enjoy learning"></div>
 			</div>
-		</div>
 
-		<div class="extension">
-				<div class="extension-img"> <img src="img/ExtensionIllustration1.png" alt="extension for Chrome"></div>
+		</section>
+
+		<section class="content content-context-memory">
+			<div class="context-title">
+				<h2 class="context-heading" id="headMemory">All you have read or watched<br />are clues for the memory
+				</h2>
+				<p id="contentMemory">Our training based on the materials you’ve learned before</p>
+
 			</div>
-		</div>
-	</section>
+			<div class="img-context-puzzle">
+				<img src="img/puzzle2.svg" alt="">
+			</div>
 
-	<div class="blog">
-		<h2 id="blog">More you can find out at</h2>
-		<div class="blog-button">
-			<a href="https://easylang.app/blog" id="Blog">our blog</a>
-		</div>
-	</div>
+		</section>
 
+		<section class="content content-ourApp" id="toGetStarted">
+			<div class="app-download-wrapper">
 
-	<footer class="call-to-action">
-
-		<section class="content content-sources" id="source">
-			<div class="sources-wrapper">
-				<div class="sources-title">
-					<h2 id="headSource">What are the sources for learning?</h2>
-					<p id="contentSource">Here you will find a few ideas</p>
+				<div class="img-phone">
+					<img class="img-phone-back" src="img/phoneBackground.svg" alt="Mobile background">
+					<img class="img-phone-front wow slideInLeft" data-wow-offset="500" data-wow-duration=".8s"
+						src="img/phone.svg" alt="EasyLang app">
 				</div>
-				<div class="sources-block">
-					<div class="first-part">
-						<div class="sources-paragraph">
-							<h3 id="music">music</h3>
-							<p id="musicParagraph">Understand what are your favorite songs about</p>
+				<div class="content-description">
+
+					<h2 id="headOurApp"><span>EasyLang.app</span><sup>BETA</sup></h2>
+					<p id="contentOurApp">EasyLang is the <a class="openSoftware" target="_blank"
+							href="https://en.wikipedia.org/wiki/Free_and_open-source_software"
+							id="openSource">open-source</a> software.<br />Use it for FREE</p>
+
+					<div class="button-block">
+
+						<div class="button-group button-group-1">
+							<a class="button-install button-chrome" id="extension"
+								href="https://github.com/easably/extension/releases/download/0.1.2/extension-master.zip">For
+								Chrome</a>
+							<a href="https://github.com/easably/extension/blob/master/README.md"
+								class="button-install button-guide" id="extensionGuide" target="_blank" role="button">
+								<i class="fa fa-cog"></i> Installation guide</a>
 						</div>
-						<div class="sources-paragraph">
-							<h3 id="news">news</h3>
-							<p id="newsParagraph">Read the news without checking dictionaries</p>
+
+						<div class="button-group button-group-2"><a class="button-install button-web"
+								href="http://easy4learn.com/tutor" target="_blank">Web</a>
 						</div>
-						<div class="sources-paragraph">
-							<h3 id="video">video</h3>
-							<p id="videoParagraph">Follow new bloggers on YouTube and other channels</p>
+
+						<div class="button-group button-group-3">
+							<a class="button-install button-android"
+								href="https://github.com/easably/context-tutor/releases/download/0.1.11/app-debug.apk">Android</a>
+							<a class="button-install button-iOS" href="https://testflight.apple.com/join/w0Dyxqef"
+								target="_blank">iOS</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="content content-howItWorks" id="howItWork">
+			<div>
+				<h2 id="headHowItWorks">How does our app work?</h2>
+				<div class="slider-wrapper">
+					<div class="slider">
+						<div class="slides"
+							data-slick='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","infinite":"yes","direction":"ltr"}'>
+							<div class="slide 1th">
+								<figure class="slick-slide-inner">
+									<img src="img/slider/gif/slide1.gif" alt="" />
+									<figcaption class="image-carousel-caption" id="sliderCaptionFirst">Play some video
+									</figcaption>
+								</figure>
+							</div>
+
+							<div class="slide 2th">
+								<figure class="slick-slide-inner">
+									<img src="img/slider/img/video.png" alt="" />
+									<figcaption class="image-carousel-caption" id="sliderCaptionSecond">Click "A"(Add)
+										button</figcaption>
+								</figure>
+							</div>
+							<div class="slide 3th" id="slideThird"> <img src="img/slider/img/3.png" alt="">
+							</div>
+							<div class="slide 4th" id="slideFourth"> <img src="img/slider/img/4.png" alt="">
+							</div>
 						</div>
 					</div>
-					<div class="second-part">
-						<div class="sources-paragraph">
-							<h3 id="book">books</h3>
-							<p id="bookParagraph">Start reading books in the original language</p>
-						</div>
-						<div class="sources-paragraph">
-							<h3 id="movie">movies</h3>
-							<p id="movieParagraph">Listen the original of your favorite movie characters</p>
-						</div>
+				</div>
+
+				<div class="extension">
+					<div class="extension-img"> <img src="img/ExtensionIllustration1.png" alt="extension for Chrome">
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<div class="button-started get-started"><a class="get-started-button2"  href="#toGetStarted" id="getStarted">get started</a></div>
+		<div class="blog">
+			<h2 id="blog">More you can find out at</h2>
+			<div class="blog-button">
+				<a href="https://easylang.app/blog" id="Blog">our blog</a>
+			</div>
+		</div>
+
+		<div class="call-to-action">
+
+			<section class="content content-sources" id="source">
+				<div class="sources-wrapper">
+					<div class="sources-title">
+						<h2 id="headSource">What are the sources for learning?</h2>
+						<p id="contentSource">Here you will find a few ideas</p>
+					</div>
+					<div class="sources-block">
+						<div class="first-part">
+							<div class="sources-paragraph">
+								<h3 id="movie">movie</h3>
+								<p id="movieParagraph">Listen the original of your favorite movie characters</p>
+							</div>
+							<div class="sources-paragraph">
+								<h3 id="news">news</h3>
+								<p id="newsParagraph">Read the news without checking dictionaries</p>
+							</div>
+							<div class="sources-paragraph">
+								<h3 id="book">books</h3>
+								<p id="bookParagraph">Start reading books in the original language</p>
+							</div>
+						</div>
+						<div class="second-part">
+
+							<div class="sources-paragraph">
+								<h3 id="video">video</h3>
+								<p id="videoParagraph">Follow new bloggers on YouTube and other channels</p>
+							</div>
+							<div class="sources-paragraph">
+								<h3 id="music">music</h3>
+								<p id="musicParagraph">Understand what are your favorite songs about</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+	<footer class="get-started-footer">
+		<div class="button-started get-started">
+			<a class="get-started-button2" href="#toGetStarted" id="getStarted">get started</a>
+		</div>
 	</footer>
-	
-<script>
-		$('.slides').slick({
-	  dots: true,
-	  infinite: true,
-	  speed: 900,
-	  fade: true
-	});
 
-		$('.menu-btn').on('click', function(e) {
-	e.preventDefault;
-	$(this).toggleClass('menu-btn_active');
-	$('.menu-main').toggleClass('menu-main_active');
-});
-	</script>
-</body> 
-
-	
+	<button onclick="topFunction()" id="btnTop" title="Go to top"></button>
+</body>
 
 </html>
