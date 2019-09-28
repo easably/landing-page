@@ -286,6 +286,10 @@ select {
 	width: 100%;
 }
 
+.menu-logo{
+	display: none;
+}
+
 .menu-main-list {
 	position: relative;
 	display: flex;

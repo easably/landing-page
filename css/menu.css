@@ -112,6 +112,7 @@
 	}
 
 	.menu-logo{
+		display: block;
 		font-size: 1.6rem;
 		font-family: 'Kodchasan', sans-serif;
 		font-weight: bold;
