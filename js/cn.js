@@ -1,4 +1,4 @@
- {
+ var languageCN = {
 	"ourBlog" : "博客",
 	"ourApp" : "EasyLang应用",
 	"HowItWork": "怎么运作",

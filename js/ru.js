@@ -1,4 +1,4 @@
- {
+var languageRU = {
 	"ourBlog" : "Наш блог",
 	"ourApp" : "Приложение",
 	"HowItWork": "Как пользоваться",
@@ -7,7 +7,7 @@
 	"headerSubtitle" : "Попробуй EasyLang и начни своё комфорное обучение языкам",
 	"buttonStarted" : "Начать",
 	"headPleasure" : "Учи языки с удовольствием",
-	"contentPleasure" : "Любой ресурс, как Netflix и Youtube может стать твоим уроком. Выбери свою любимую тематику и начни изучать.",
+	"contentPleasure" : "Любой ресурс, как <b>Netflix</b> и <b>Youtube</b> может стать твоим уроком. Выбери свою любимую тематику и начни изучать.",
 	"headMemory" : "Всё, что ты читаешь или видишь - это подсказки для твоей памяти",
 	"contentMemory" : "Контекстное обучение EasyLang построено на материалах, которые ты изучал ранее",
 	"headOurApp" : "<span> EasyLang.app <\/span> <sup> BETA <\/sup>",

@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', ready)
 function ready() {
 	var wow = new WOW();
 	wow.init();
+
+	setAutoLanguage();
+
 	$('.slides').slick({
 		dots: true,
 		infinite: true,
@@ -15,8 +18,12 @@ function ready() {
 		$(this).toggleClass('menu-btn_active');
 		$('.menu-main').toggleClass('menu-main_active');
 	});
-	$('.overlay').on('click', e => closeMenu(e));
-	$('.menu-nav__link').on('click', e => closeMenu(e));
+	$('.overlay').on('click', function (e) {
+		closeMenu(e)
+	});
+	$('.menu-nav__link').on('click', function (e) {
+		closeMenu(e)
+	});
 
 	window.onscroll = function showHeader() {
 		var stickyMenu = document.querySelector('.navbar');
@@ -35,7 +42,7 @@ function ready() {
 		}
 	}
 
-	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
 		anchor.addEventListener('click', function (e) {
 			e.preventDefault();
 			document.querySelector(this.getAttribute('href')).scrollIntoView({
@@ -45,7 +52,25 @@ function ready() {
 	});
 }
 
-function closeMenu(){
+function getUserLanguage() {
+	return navigator.language ||
+		navigator.languages && navigator.languages[0] ||
+		navigator.userLanguage ||
+		'en';
+}
+
+function setAutoLanguage() {
+	var userLang = getUserLanguage();
+	var selectLang = document.querySelector('#getLang');
+	selectLang.querySelectorAll('option').forEach(function (e) {
+		if (userLang.indexOf(e.value) !== -1) {
+			selectLang.value = e.value;
+		}
+	})
+	changeLocale();
+}
+
+function closeMenu() {
 	$(this).removeClass('menu-btn_active');
 	$('.menu-main').removeClass('menu-main_active');
 }
@@ -56,29 +81,18 @@ function topFunction() {
 	}, '50');
 }
 
-function changeLocale(locale) {
+function changeLocale() {
 	var selectLang = document.getElementById('getLang');
-	var locale = '';
-
+	var locale = languageEN;
 	if (selectLang.value == 'en') {
-		locale = '15z4pn';
+		locale = languageEN;
 	} else if (selectLang.value == 'ru') {
-		locale = 'ow47b';
+		locale = languageRU;
 	} else if (selectLang.value == 'cn') {
-		locale = '18yhoj';
-	} else {
-		locale = '15z4pn';
+		locale = languageCN;
 	}
-
-	fetch('https://api.myjson.com/bins/' + locale).then(data => data.json()).then(lang => {
-		const ignoreIdList = ['slideThird', 'slideFourth'];
-
-		Object.keys(lang).forEach(function (id) {
-			if (ignoreIdList.indexOf(id) === -1) {
-				document.getElementById(id).innerHTML = lang[id];
-			}
-		});
+	Object.keys(locale).forEach(function (id) {
+		document.getElementById(id).innerHTML = locale[id];
 	});
-
 
 }
