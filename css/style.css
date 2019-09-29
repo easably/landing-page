@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Kodchasan:600&display=swap');
-
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-
-
 * {
+	font-family: 'Comfortaa', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -19,22 +14,7 @@ body {
 	background-size: 100%;
 }
 
-p,
-li {
-	font-family: 'Muli', sans-serif;
-}
-
-h1,
-a,
-h2,
-h3,
-select {
-	font-family: 'Comfortaa', cursive;
-}
-
 h2 {
-	margin-bottom: 1%;
-
 	font-size: 2.3rem;
 	font-weight: 500;
 	word-wrap: normal;
@@ -82,13 +62,13 @@ li {
 	border: none;
 	right: 20px;
 	outline: none;
+	transition: all .6s linear;
 
 }
 
-/*#btnTop:hover {
-	background-color: ;
-	transition: all .2s linear;
-}*/
+#btnTop:hover {
+	background-color: #215599;
+}
 
 #btnTop::before,
 #btnTop::after {
@@ -131,7 +111,7 @@ li {
 
 	text-align: center;
 	font-size: 2rem;
-	font-family: 'Comfortaa', cursive;
+	/* font-family: 'Comfortaa', cursive; */
 
 }
 
@@ -156,7 +136,7 @@ li {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	z-index: 101;
+	z-index: 50;
 }
 
 .sticky-bar {
@@ -164,7 +144,7 @@ li {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	min-height: 50px;
+	min-height: 70px;
 }
 
 .fixed-bar {
@@ -264,7 +244,7 @@ select {
 
 .logo-light {
 	font-size: 1.8rem;
-	font-family: 'Kodchasan', sans-serif;
+	font-family: 'Kodchasan';
 	font-weight: bold;
 	color: white;
 }
@@ -279,7 +259,6 @@ select {
 	display: flex;
 	flex: 1 0 auto;
 	justify-content: space-around;
-
 }
 
 .menu-block {
@@ -308,6 +287,7 @@ select {
 	font-weight: normal;
 	font-size: 0.9rem;
 	padding-bottom: 5px;
+	border-bottom: 0px solid rgba(255, 255, 255, 0);
 	transition: border-bottom .1s ease-in-out;
 }
 
@@ -318,8 +298,6 @@ select {
 .menu-btn {
 	display: none;
 }
-
-
 
 /*hero*/
 .hero-title {
@@ -382,26 +360,44 @@ select {
 	position: relative;
 }
 
-.enjoyIt-wrapper {
-	position: relative;
+.enjoyIt-wrapper,
+.content-context-memory {
+	/* position: relative; */
+	display: flex;
+	justify-content: space-between;
 }
-
-.content-enjoyLearning .enjoyIt-wrapper {
-	text-align: right;
+.content-context-memory {
+	flex-direction: row-reverse;
+	margin-top: -100px;
 }
 
 .enjoyIt-heading,
 .context-title {
-	position: absolute;
-	text-align: left;
-	padding: 20px 50px 0 50px;
+	/* position: absolute; */
+	/* text-align: left; */
+	padding-top: 50px;
+	flex: 0 1 40%;
+}
+
+.context-title{
+	text-align: right;
 }
 
 .imgEnjoy img,
 .img-context-puzzle img {
-	width: 50%;
+	width: 100%;
+	height: 100%;
 }
 
+.imgEnjoy,
+.img-context-puzzle {
+	flex: 1 1 60%;
+}
+
+.enjoyIt-heading h2,
+.context-title h2{
+	margin-bottom: 20px;
+}
 /*.content-ourApp {
 	background: url('../img/phone-dark.svg') left top/contain no-repeat;
 }*/
@@ -409,6 +405,7 @@ select {
 .app-download-wrapper {
 	display: flex;
 	flex-wrap: nowrap;
+	align-items: center;
 }
 
 .img-phone {
@@ -430,7 +427,6 @@ select {
 
 .content-description {
 	flex-basis: 50%;
-	margin-top: 12%;
 	margin-left: 5%;
 }
 
@@ -465,7 +461,7 @@ h2>sup {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	width: 60%;
+	width: 80%;
 	margin-top: 4px;
 	position: relative;
 	align-items: center;
@@ -481,7 +477,6 @@ h2>sup {
 
 .button-group-2 {
 	margin-left: 2%;
-	width: 30%;
 }
 
 .button-group-2 .button-install {
@@ -494,7 +489,7 @@ h2>sup {
 
 .button-install {
 	padding: 20px 5px;
-	width: 100%;
+	flex: 0 1 50%;
 	background-color: #56D3F1;
 	border-radius: 50px;
 	display: block;
@@ -508,26 +503,25 @@ h2>sup {
 	border-bottom: 4px solid white;
 	border-top: 4px solid white;
 	z-index: 2;
-
 }
 
 .button-guide,
 .button-iOS {
 	position: relative;
-	right: 15%;
 	padding: 16px 5px;
 }
 
 .button-iOS{
-	right: 33%;
-	text-align: right;
-	padding-right: 15px !important;
+	right: 30%;
+	text-align: center;
+	padding-left: 29%;
+	padding-right: 1%;
 }
 
 .button-guide {
 	font-size: .7rem;
 	opacity: 0;
-	right: 10%;
+	right: 8%;
 	padding-left: 30px;
 
 }
@@ -590,25 +584,26 @@ h2>sup {
 
 .blog a {
 	display: block;
-	width: 17%;
+	width: 27%;
 	background-color: #45B8FF;
 	color: white;
-	padding: 1.5% 4%;
+	padding: 1.5% 0;
 	margin: 0 auto;
 	border-radius: 50px;
 	font-size: 1.4rem;
 	letter-spacing: 4px;
+	transition: all .3s;
 }
 
 .blog a:hover {
 	background-color: #6fc7e2;
-	transition: all .3s;
 }
 
 .blog h2 {
 	color: #45B8FF;
 	font-weight: 700;
 	text-align: center;
+	margin-bottom: 3%;
 }
 
 
@@ -627,19 +622,6 @@ h2>sup {
 
 .extension img {
 	width: 100%;
-}
-
-.context-title {
-	right: 0;
-	text-align: right;
-}
-
-.img-context-puzzle {
-	padding: 2%;
-}
-
-.content:last-of-type {
-	padding-bottom: 5%;
 }
 
 .sources-wrapper,

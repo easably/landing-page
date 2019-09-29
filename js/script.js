@@ -18,11 +18,11 @@ function ready() {
 		$(this).toggleClass('menu-btn_active');
 		$('.menu-main').toggleClass('menu-main_active');
 	});
-	$('.overlay').on('click', function (e) {
-		closeMenu(e)
+	$('.overlay').on('click', function () {
+		closeMenu()
 	});
-	$('.menu-nav__link').on('click', function (e) {
-		closeMenu(e)
+	$('.menu-nav__link').on('click', function () {
+		closeMenu()
 	});
 
 	window.onscroll = function showHeader() {
@@ -71,7 +71,7 @@ function setAutoLanguage() {
 }
 
 function closeMenu() {
-	$(this).removeClass('menu-btn_active');
+	$('.menu-btn').removeClass('menu-btn_active');
 	$('.menu-main').removeClass('menu-main_active');
 }
 

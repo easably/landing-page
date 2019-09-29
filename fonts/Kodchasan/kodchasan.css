@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Light'), local('Kodchasan-Light'), url('Kodchasanlight.woff2') format('woff2'), url('Kodchasanlight.woff') format('woff'), url('Kodchasanlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Regular'), local('Kodchasan-Regular'), url('Kodchasanregular.woff2') format('woff2'), url('Kodchasanregular.woff') format('woff'), url('Kodchasanregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan SemiBold'), local('Kodchasan-SemiBold'), url('Kodchasansemibold.woff2') format('woff2'), url('Kodchasansemibold.woff') format('woff'), url('Kodchasansemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Italic'), local('Kodchasan-Italic'), url('Kodchasanitalic.woff2') format('woff2'), url('Kodchasanitalic.woff') format('woff'), url('Kodchasanitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Medium Italic'), local('Kodchasan-MediumItalic'), url('Kodchasanmediumitalic.woff2') format('woff2'), url('Kodchasanmediumitalic.woff') format('woff'), url('Kodchasanmediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan ExtraLight Italic'), local('Kodchasan-ExtraLightItalic'), url('Kodchasanextralightitalic.woff2') format('woff2'), url('Kodchasanextralightitalic.woff') format('woff'), url('Kodchasanextralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Light Italic'), local('Kodchasan-LightItalic'), url('Kodchasanlightitalic.woff2') format('woff2'), url('Kodchasanlightitalic.woff') format('woff'), url('Kodchasanlightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Medium'), local('Kodchasan-Medium'), url('Kodchasanmedium.woff2') format('woff2'), url('Kodchasanmedium.woff') format('woff'), url('Kodchasanmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan ExtraLight'), local('Kodchasan-ExtraLight'), url('Kodchasanextralight.woff2') format('woff2'), url('Kodchasanextralight.woff') format('woff'), url('Kodchasanextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Bold Italic'), local('Kodchasan-BoldItalic'), url('Kodchasanbolditalic.woff2') format('woff2'), url('Kodchasanbolditalic.woff') format('woff'), url('Kodchasanbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan SemiBold Italic'), local('Kodchasan-SemiBoldItalic'), url('Kodchasansemibolditalic.woff2') format('woff2'), url('Kodchasansemibolditalic.woff') format('woff'), url('Kodchasansemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Kodchasan';
+    src: local('Kodchasan Bold'), local('Kodchasan-Bold'), url('Kodchasanbold.woff2') format('woff2'), url('Kodchasanbold.woff') format('woff'), url('Kodchasanbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

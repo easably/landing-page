@@ -13,7 +13,7 @@ var languageRU = {
 	"headOurApp" : "<span> EasyLang.app <\/span> <sup> BETA <\/sup>",
 	"contentOurApp" : "EasyLang это <a class=\"openSoftware\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Free_and_open-source_software\" id=\"openSource\">open-source<\/a> проект. Использование абсолютно бесплатно",
 	"extension" : "для Chrome",
-	"extensionGuide" : "<i class=\"fa fa-cog\"> <\/i> Как установить",
+	"extensionGuide" : "Как установить",
 	"headHowItWorks" : "Как учиться с EasyLang?",
 	"sliderCaptionFirst" : "Включи любое видео",
 	"sliderCaptionSecond" : "Нажми клавишу \"A\"(Add)",

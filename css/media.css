@@ -21,7 +21,7 @@
 		font-size: 2rem;
 	}
 
-	p {
+	p, p.subtitle {
 		font-size: 1.4rem;
 	}
 
@@ -34,11 +34,15 @@
 	}
 
 	.button-started .get-started-button2 {
-		padding: 17px 0 !important;
+		padding: 10px 0 !important;
 		font-size: 1rem;
 	}
 
-	.imgEnjoy img,
+	.button-group {
+		width: 100%;
+	}
+
+	/* .imgEnjoy img,
 	.img-context-puzzle img {
 		width: 70%;
 	}
@@ -46,7 +50,7 @@
 	.enjoyIt-heading,
 	.context-title {
 		position: initial;
-	}
+	} */
 
 	.blog a {
 		font-size: 1.1rem;
@@ -61,21 +65,15 @@
 	.sources-title {
 		flex-basis: 100%;
 		text-align: center;
+		margin-top: 0;
+		padding-top: 0;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1240px) {
 
-	p {
+	p, p.subtitle {
 		font-size: 1.2rem;
-	}
-
-	.button-group {
-		width: 85%;
-	}
-
-	.button-group-2 {
-		width: 42.5%;
 	}
 
 
@@ -94,19 +92,14 @@
 		font-size: .7rem;
 	}
 
-	p {
+	p, p.subtitle {
 		font-size: 1rem;
 	}
 
-	.content {
-		padding: 4%;
-	}
-
-
-	.imgEnjoy img,
+	/* .imgEnjoy img,
 	.img-context-puzzle img {
 		width: 100%;
-	}
+	} */
 
 	.app-download-wrapper {
 		flex-wrap: wrap;
@@ -121,7 +114,7 @@
 		width: 70%;
 	}
 
-	.button-block {
+	/* .button-block {
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -137,7 +130,7 @@
 
 	.button-web {
 		margin-left: -50%;
-	}
+	} */
 
 	.content-description {
 		margin: 0 auto;
@@ -154,18 +147,19 @@
 	.enjoyIt-heading,
 	.context-title,
 	.sources-title {
-		padding: 10px;
+		/* padding: 10px; */
+		text-align: center;
+		padding-top: 6%;
 	}
 
-
-	.blog-button {
-		-webkit-background-size: 50%;
-		background-size: 50%;
+	.enjoyIt-wrapper,
+	.content-context-memory {
+		flex-direction: column;
+		margin-top: 0;
 	}
 
 	.blog a {
 		font-size: 1.1rem;
-		width: 20%;
 	}
 
 	.sources-title {
@@ -186,6 +180,7 @@
 @media(max-width: 610px) {
 	h1.hero-title {
 		font-size: 1.1rem;
+		line-height: 2rem;
 	}
 
 	h2 {
@@ -206,7 +201,7 @@
 		padding: 4% 0 25%;
 	}
 
-	.logo{
+	.logo {
 		margin: 0 0 0 5px;
 	}
 
@@ -227,7 +222,7 @@
 
 	.button-started .get-started-button2,
 	.button-started .get-started-button {
-		font-size: 0.7rem;
+		font-size: 0.5rem;
 		margin: 0 auto;
 	}
 
@@ -239,17 +234,10 @@
 		font-size: .7rem;
 	}
 
-
-	.blog-button {
-		-webkit-background-size: 55%;
-		background-size: 55%;
-	}
-
 	.blog a {
 		font-size: .7rem;
-		width: 25%;
 		letter-spacing: 2px;
-		padding: 2% 3%;
+		padding: 2% 0;
 	}
 
 	.sources-block {
@@ -264,7 +252,8 @@
 		-webkit-background-size: 180%;
 		background-size: 180%;
 	}
-	.get-started-footer{
+
+	.get-started-footer {
 		padding-bottom: 1%;
 	}
 }
