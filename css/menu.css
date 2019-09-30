@@ -1,9 +1,10 @@
 /*menu button for mobile version*/
 @media (max-width: 1024px) {
-	.sticky-bar{
+	.sticky-bar {
 		padding-right: 100px;
 		position: relative;
 	}
+
 	.menu-wrapper {
 		position: absolute;
 		right: 0;
@@ -11,7 +12,7 @@
 		width: auto;
 	}
 
-	.menu-block{
+	.menu-block {
 		position: relative;
 	}
 
@@ -27,7 +28,7 @@
 		transition: background-color .2s ease-in-out;
 	}
 
-	.menu-btn:hover{
+	.menu-btn:hover {
 		cursor: pointer;
 		background-color: rgba(0, 0, 0, .5);
 	}
@@ -79,7 +80,7 @@
 
 	}
 
-	.overlay{
+	.overlay {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -87,12 +88,12 @@
 		height: 100%;
 		opacity: 0;
 		visibility: hidden;
-		background-color: rgba(0,0,0,0.5);
+		background-color: rgba(0, 0, 0, 0.5);
 		-moz-transition: all .4s;
 		-webkit-transition: all .4s;
 		transition: all .4s;
 	}
-	
+
 	.menu-main-list {
 		opacity: 0;
 		right: -300px;
@@ -109,12 +110,16 @@
 		padding-bottom: 20% !important;
 	}
 
-	.menu-logo{
+	.menu-logo {
 		display: block;
 		font-size: 1.6rem;
 		font-family: 'Kodchasan', sans-serif;
 		font-weight: bold;
 		color: white;
+	}
+
+	.menu-logo:hover {
+		cursor: default;
 	}
 
 	.menu-main-list li {
@@ -126,16 +131,18 @@
 		flex-direction: column;
 		justify-content: left;
 		transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
 	}
 
-	.menu-main-list li:hover:not(:first-child){
-		background-color:#d3d3d33d;
+	.menu-main-list li:hover:not(:first-child) {
+		background-color: #d3d3d33d;
 	}
 
 	.menu-main-list li:first-child {
 		padding: 10% 0;
 		text-align: center;
-		border-bottom:none;
+		border-bottom: none;
 	}
 
 	.menu-main_active .menu-main-list {
@@ -143,12 +150,12 @@
 		opacity: 1;
 		visibility: visible;
 	}
-	
+
 	.menu-main_active .overlay {
 		opacity: 1;
 		visibility: visible;
 	}
-	
+
 	.menu-main-list .menu-nav__link {
 		color: white;
 		transition: all .2s ease-in-out;
@@ -158,7 +165,6 @@
 		border-bottom: 0;
 		color: #03a9f4;
 	}
-
 
 	/*menu links*/
 	.menu-nav__link {
@@ -171,6 +177,6 @@
 		padding-bottom: 0;
 	}
 
-	
+
 
 }

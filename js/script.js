@@ -45,9 +45,13 @@ function ready() {
 	document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
 		anchor.addEventListener('click', function (e) {
 			e.preventDefault();
-			document.querySelector(this.getAttribute('href')).scrollIntoView({
+			var el = document.querySelector(this.getAttribute('href'));
+			var top =  el.getBoundingClientRect().top + window.pageYOffset;
+			var offset = - 100;
+			window.scrollTo({
+				top: top + offset,
 				behavior: 'smooth'
-			});
+			})
 		});
 	});
 }

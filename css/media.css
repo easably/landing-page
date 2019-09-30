@@ -42,16 +42,6 @@
 		width: 100%;
 	}
 
-	/* .imgEnjoy img,
-	.img-context-puzzle img {
-		width: 70%;
-	}
-
-	.enjoyIt-heading,
-	.context-title {
-		position: initial;
-	} */
-
 	.blog a {
 		font-size: 1.1rem;
 	}
@@ -96,11 +86,6 @@
 		font-size: 1rem;
 	}
 
-	/* .imgEnjoy img,
-	.img-context-puzzle img {
-		width: 100%;
-	} */
-
 	.app-download-wrapper {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -113,24 +98,6 @@
 	.img-phone img {
 		width: 70%;
 	}
-
-	/* .button-block {
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.button-install {
-		padding: 10px 3px;
-	}
-
-	.button-web {
-		margin-left: -50%;
-	} */
 
 	.content-description {
 		margin: 0 auto;
@@ -147,7 +114,6 @@
 	.enjoyIt-heading,
 	.context-title,
 	.sources-title {
-		/* padding: 10px; */
 		text-align: center;
 		padding-top: 6%;
 	}
@@ -175,7 +141,6 @@
 
 
 }
-
 
 @media(max-width: 610px) {
 	h1.hero-title {

@@ -17,7 +17,7 @@ body {
 h2 {
 	font-size: 2.3rem;
 	font-weight: 500;
-	word-wrap: normal;
+	word-wrap: break-word;
 	word-break: keep-all;
 }
 
@@ -29,7 +29,6 @@ h3 {
 
 p {
 	margin: 2% 0;
-
 	font-size: 1.4rem;
 	font-weight: normal;
 	line-height: 1.2;
@@ -111,8 +110,6 @@ li {
 
 	text-align: center;
 	font-size: 2rem;
-	/* font-family: 'Comfortaa', cursive; */
-
 }
 
 .slick-dots li button::before {
@@ -172,6 +169,7 @@ li {
 
 .no-fixed-bar{
 	animation: showMenu2 .3s;
+	display: flex;
 }
 
 @keyframes showMenu1 {
@@ -227,19 +225,8 @@ select {
 	color: #215599;
 }
 
-
-/*.lang a{
-	display: flex;
-	width: 4%;
-	margin-left: 4px;
-}
-.lang a > img {
-	width: 100%;
-}
-*/
-
 .logo {
-	margin: 0 70px 0 50px;
+	height: 100%;
 }
 
 .logo-light {
@@ -247,6 +234,11 @@ select {
 	font-family: 'Kodchasan';
 	font-weight: bold;
 	color: white;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 50px;
+	margin-right: 20px;
 }
 
 /*menu*/
@@ -345,11 +337,6 @@ select {
 	background-color: #ffb43f;
 }
 
-/*.header-separator .svg-white-bg {
-	fill: white;
-}*/
-
-
 /*content*/
 .container{
 	margin: 0 6%;
@@ -362,21 +349,18 @@ select {
 
 .enjoyIt-wrapper,
 .content-context-memory {
-	/* position: relative; */
 	display: flex;
 	justify-content: space-between;
 }
 .content-context-memory {
 	flex-direction: row-reverse;
-	margin-top: -100px;
+	margin-top: -80px;
 }
 
 .enjoyIt-heading,
 .context-title {
-	/* position: absolute; */
-	/* text-align: left; */
 	padding-top: 50px;
-	flex: 0 1 40%;
+	flex: 0 1 50%;
 }
 
 .context-title{
@@ -391,16 +375,13 @@ select {
 
 .imgEnjoy,
 .img-context-puzzle {
-	flex: 1 1 60%;
+	flex: 1 1 50%;
 }
 
 .enjoyIt-heading h2,
 .context-title h2{
-	margin-bottom: 20px;
+	margin-bottom: 5%;
 }
-/*.content-ourApp {
-	background: url('../img/phone-dark.svg') left top/contain no-repeat;
-}*/
 
 .app-download-wrapper {
 	display: flex;
@@ -530,45 +511,6 @@ h2>sup {
 	transform: scale(1.1)
 }
 
-/*
-
-.button-install:not(:first-of-type) {
-	margin-left: 2%;
-}
-
-.button-install:first-of-type {
-	background-color: #f26d6d;
-	color: white;
-}
-
-.button-install:hover {
-	color: #fff;
-    background-color: #f26d6d;
-    border: 2px solid #f26d6d;
-    transition: all .3s linear;
-}
-
-.button-install:first-of-type:hover{
-	background-color: rgb(183, 82, 82);
-	border: 2px solid rgba(183, 82, 82);	
-}
-*/
-
-
-/*.button-install-extension {
-	display: none;
-	position: absolute; bottom: -20px; left: 0%;
-	padding: 6px 8px; 
-	border-radius: 20px;
-	
-	color: #029fe2;
-    background-color: #d4f5f7;
-
-    font-size: .8rem;
-    opacity: 0;
-
-}
-*/
 .button-group-1:hover .button-guide {
 	opacity: 1;
 }
@@ -603,7 +545,7 @@ h2>sup {
 	color: #45B8FF;
 	font-weight: 700;
 	text-align: center;
-	margin-bottom: 3%;
+	margin-bottom: 1%;
 }
 
 
@@ -648,7 +590,6 @@ h2>sup {
 	flex-direction: column;
 	justify-content: flex-start;
 	flex-basis: 50%;
-
 	padding: 20px 40px 20px 50px;
 	margin-top: 5%;
 }
@@ -668,7 +609,6 @@ h2>sup {
 .sources-paragraph {
 	margin: 2%;
 	padding: 8%;
-
 	border-radius: 25px;
 	background: #45B8FF;
 	color: white;
